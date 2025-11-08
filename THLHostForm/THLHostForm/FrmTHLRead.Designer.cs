@@ -29,27 +29,27 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea10 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend10 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series10 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea11 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend11 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series11 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea12 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend12 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series12 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.label1 = new System.Windows.Forms.Label();
             this.lblTemperature = new System.Windows.Forms.Label();
             this.dgvTH = new System.Windows.Forms.DataGridView();
-            this.lblHum = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.btnReset = new System.Windows.Forms.Button();
             this.Temperature = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.humidity = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Light = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.DTime = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.lblHum = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.btnReset = new System.Windows.Forms.Button();
             this.chart2 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.lblLight = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -63,20 +63,20 @@
             // 
             // chart1
             // 
-            chartArea10.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea10);
-            legend10.Name = "Legend1";
-            this.chart1.Legends.Add(legend10);
+            chartArea1.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea1);
+            legend1.Name = "Legend1";
+            this.chart1.Legends.Add(legend1);
             this.chart1.Location = new System.Drawing.Point(42, 71);
             this.chart1.Name = "chart1";
-            series10.ChartArea = "ChartArea1";
-            series10.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series10.IsXValueIndexed = true;
-            series10.Legend = "Legend1";
-            series10.Name = "Temperature";
-            series10.XValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Time;
-            series10.YValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Double;
-            this.chart1.Series.Add(series10);
+            series1.ChartArea = "ChartArea1";
+            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series1.IsXValueIndexed = true;
+            series1.Legend = "Legend1";
+            series1.Name = "Temperature";
+            series1.XValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Time;
+            series1.YValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Double;
+            this.chart1.Series.Add(series1);
             this.chart1.Size = new System.Drawing.Size(625, 449);
             this.chart1.TabIndex = 0;
             this.chart1.Text = "chart1";
@@ -121,6 +121,34 @@
             this.dgvTH.Size = new System.Drawing.Size(736, 449);
             this.dgvTH.TabIndex = 3;
             // 
+            // Temperature
+            // 
+            this.Temperature.HeaderText = "温度";
+            this.Temperature.MinimumWidth = 6;
+            this.Temperature.Name = "Temperature";
+            this.Temperature.Width = 125;
+            // 
+            // humidity
+            // 
+            this.humidity.HeaderText = "湿度";
+            this.humidity.MinimumWidth = 6;
+            this.humidity.Name = "humidity";
+            this.humidity.Width = 125;
+            // 
+            // Light
+            // 
+            this.Light.HeaderText = "亮度";
+            this.Light.MinimumWidth = 6;
+            this.Light.Name = "Light";
+            this.Light.Width = 125;
+            // 
+            // DTime
+            // 
+            this.DTime.HeaderText = "时间";
+            this.DTime.MinimumWidth = 6;
+            this.DTime.Name = "DTime";
+            this.DTime.Width = 125;
+            // 
             // lblHum
             // 
             this.lblHum.AutoSize = true;
@@ -151,50 +179,22 @@
             this.btnReset.UseVisualStyleBackColor = true;
             this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
             // 
-            // Temperature
-            // 
-            this.Temperature.HeaderText = "温度";
-            this.Temperature.MinimumWidth = 6;
-            this.Temperature.Name = "Temperature";
-            this.Temperature.Width = 125;
-            // 
-            // humidity
-            // 
-            this.humidity.HeaderText = "湿度";
-            this.humidity.MinimumWidth = 6;
-            this.humidity.Name = "humidity";
-            this.humidity.Width = 125;
-            // 
-            // Light
-            // 
-            this.Light.HeaderText = "亮度";
-            this.Light.MinimumWidth = 6;
-            this.Light.Name = "Light";
-            this.Light.Width = 125;
-            // 
-            // DTime
-            // 
-            this.DTime.HeaderText = "时间";
-            this.DTime.MinimumWidth = 6;
-            this.DTime.Name = "DTime";
-            this.DTime.Width = 125;
-            // 
             // chart2
             // 
-            chartArea11.Name = "ChartArea1";
-            this.chart2.ChartAreas.Add(chartArea11);
-            legend11.Name = "Legend1";
-            this.chart2.Legends.Add(legend11);
+            chartArea2.Name = "ChartArea1";
+            this.chart2.ChartAreas.Add(chartArea2);
+            legend2.Name = "Legend1";
+            this.chart2.Legends.Add(legend2);
             this.chart2.Location = new System.Drawing.Point(767, 71);
             this.chart2.Name = "chart2";
-            series11.ChartArea = "ChartArea1";
-            series11.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series11.IsXValueIndexed = true;
-            series11.Legend = "Legend1";
-            series11.Name = "Humidity";
-            series11.XValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Time;
-            series11.YValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Double;
-            this.chart2.Series.Add(series11);
+            series2.ChartArea = "ChartArea1";
+            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series2.IsXValueIndexed = true;
+            series2.Legend = "Legend1";
+            series2.Name = "Humidity";
+            series2.XValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Time;
+            series2.YValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Double;
+            this.chart2.Series.Add(series2);
             this.chart2.Size = new System.Drawing.Size(625, 449);
             this.chart2.TabIndex = 10;
             this.chart2.Text = "chart2";
@@ -221,20 +221,20 @@
             // 
             // chart3
             // 
-            chartArea12.Name = "ChartArea1";
-            this.chart3.ChartAreas.Add(chartArea12);
-            legend12.Name = "Legend1";
-            this.chart3.Legends.Add(legend12);
+            chartArea3.Name = "ChartArea1";
+            this.chart3.ChartAreas.Add(chartArea3);
+            legend3.Name = "Legend1";
+            this.chart3.Legends.Add(legend3);
             this.chart3.Location = new System.Drawing.Point(42, 546);
             this.chart3.Name = "chart3";
-            series12.ChartArea = "ChartArea1";
-            series12.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series12.IsXValueIndexed = true;
-            series12.Legend = "Legend1";
-            series12.Name = "Light";
-            series12.XValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Time;
-            series12.YValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Double;
-            this.chart3.Series.Add(series12);
+            series3.ChartArea = "ChartArea1";
+            series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series3.IsXValueIndexed = true;
+            series3.Legend = "Legend1";
+            series3.Name = "Light";
+            series3.XValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Time;
+            series3.YValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Double;
+            this.chart3.Series.Add(series3);
             this.chart3.Size = new System.Drawing.Size(625, 449);
             this.chart3.TabIndex = 11;
             this.chart3.Text = "chart3";
@@ -273,7 +273,6 @@
             this.Text = "温湿度光照读取界面";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmTHLRead_FormClosing);
-            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FrmTHLRead_FormClosed);
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvTH)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chart2)).EndInit();

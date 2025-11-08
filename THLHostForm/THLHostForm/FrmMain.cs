@@ -7,6 +7,7 @@ using System.IO;
 using System.IO.Ports;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using ModbusDAL;
@@ -18,15 +19,31 @@ namespace THLHostForm
     public partial class FrmMain : Form
     {
         private ModbusService objModbusService;
+        private CancellationTokenSource _netCts;
         public FrmMain(ModbusService objModbusService)
         {
             InitializeComponent();
             this.objModbusService = objModbusService;
             OpenForm(new FrmPortManager(objModbusService));
             adminName.Text = Program.AdminName;
-
+            Task.Run(() => NetLoop(_netCts.Token));
         }
 
+        private async Task NetLoop(CancellationToken token)
+        {
+            while (!token.IsCancellationRequested)
+            {
+                try
+                {
+                    NetManager.Update();
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("[NetLoop] " + ex.Message);
+                }
+                await Task.Delay(10);
+            }
+        }
 
 
         private void CloseForm()
@@ -62,11 +79,6 @@ namespace THLHostForm
             {
                 e.Cancel = false;
             }
-        }
-
-        private void timer1_Tick(object sender, EventArgs e)
-        {
-            NetManager.Update();
         }
     }
 }

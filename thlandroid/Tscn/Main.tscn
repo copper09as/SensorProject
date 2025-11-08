@@ -1,6 +1,17 @@
-[gd_scene load_steps=2 format=3 uid="uid://gnpbbyrvwtfa"]
+[gd_scene load_steps=10 format=3 uid="uid://gnpbbyrvwtfa"]
 
 [ext_resource type="Script" uid="uid://crcdytvqvdpip" path="res://Scripts/UserApp.cs" id="1_0p131"]
+[ext_resource type="Texture2D" uid="uid://bgjaohseid5ua" path="res://Art/thermometer-hot.png" id="2_rcxye"]
+[ext_resource type="Texture2D" uid="uid://dhconym4xpvtn" path="res://Art/aerial-signal.png" id="2_stg0l"]
+[ext_resource type="Texture2D" uid="uid://cusgoy8tu74es" path="res://Art/pc.png" id="2_xfkc3"]
+[ext_resource type="Texture2D" uid="uid://demql2q5bjl8g" path="res://Art/water-drop.png" id="3_xfkc3"]
+[ext_resource type="Texture2D" uid="uid://dcuvf2w3dmpbb" path="res://Art/sun.png" id="4_gbe6t"]
+[ext_resource type="Texture2D" uid="uid://dknxpoowvieqf" path="res://Art/cycle.png" id="6_gbe6t"]
+[ext_resource type="Texture2D" uid="uid://5mlm375h3ovp" path="res://Art/confirmed.png" id="8_xoman"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_0p131"]
+bg_color = Color(0, 0, 0, 1)
+border_width_bottom = 1
 
 [node name="Control" type="Control"]
 layout_mode = 3
@@ -10,96 +21,125 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="AddEdit" type="TextEdit" parent="."]
+[node name="Panel" type="Panel" parent="."]
 layout_mode = 0
-offset_top = 4.0
-offset_right = 600.0
-offset_bottom = 78.0
-theme_override_font_sizes/font_size = 40
-placeholder_text = "地址"
+offset_left = -2.0
+offset_top = -2.0
+offset_right = 38.0
+offset_bottom = 38.0
+scale = Vector2(15, 20.2)
+theme_override_styles/panel = SubResource("StyleBoxFlat_0p131")
 
-[node name="PortEdit" type="TextEdit" parent="."]
-offset_top = 130.0
-offset_right = 600.0
-offset_bottom = 202.0
-theme_override_font_sizes/font_size = 40
-placeholder_text = "端口"
-
-[node name="UserApp" type="Node" parent="." node_paths=PackedStringArray("addEdit", "portEdit", "connectBtn", "temText", "humText", "lightText", "sensorStateText")]
+[node name="UserApp" type="Node" parent="." node_paths=PackedStringArray("temText", "humText", "lightText", "sensorStateText", "btnReConnect", "signalText")]
 script = ExtResource("1_0p131")
-addEdit = NodePath("../AddEdit")
-portEdit = NodePath("../PortEdit")
-connectBtn = NodePath("../ConnectBtn")
-temText = NodePath("../Label/temText")
-humText = NodePath("../Label2/humText")
-lightText = NodePath("../Label3/lightText")
-sensorStateText = NodePath("../Label4/temText")
+temText = NodePath("../temText")
+humText = NodePath("../humText")
+lightText = NodePath("../lightText")
+sensorStateText = NodePath("../SensorText")
+btnReConnect = NodePath("../ReConnect")
+signalText = NodePath("../SignalText")
 
-[node name="ConnectBtn" type="Button" parent="."]
-layout_mode = 0
-offset_top = 252.0
-offset_right = 600.0
-offset_bottom = 343.0
-theme_override_font_sizes/font_size = 40
-text = "连接"
-
-[node name="Label4" type="Label" parent="."]
-offset_top = 461.0
-offset_right = 150.0
-offset_bottom = 503.0
+[node name="SignalText" type="Label" parent="."]
+offset_left = 446.0
+offset_top = 326.0
+offset_right = 596.0
+offset_bottom = 368.0
 theme_override_font_sizes/font_size = 30
-text = "监测状况："
+text = "服务器异常"
+horizontal_alignment = 2
 
-[node name="temText" type="Label" parent="Label4"]
-offset_left = 169.0
-offset_right = 319.0
-offset_bottom = 42.0
+[node name="TitleText" type="Label" parent="."]
+offset_left = 70.0
+offset_top = 47.0
+offset_right = 460.0
+offset_bottom = 110.0
+theme_override_font_sizes/font_size = 30
+text = "传感器监测与控制（第十组）"
+horizontal_alignment = 2
+
+[node name="SensorText" type="Label" parent="."]
+layout_mode = 0
+offset_left = 446.0
+offset_top = 203.0
+offset_right = 596.0
+offset_bottom = 245.0
 theme_override_font_sizes/font_size = 30
 text = "传感器异常"
 horizontal_alignment = 2
 
-[node name="Label" type="Label" parent="."]
+[node name="temText" type="Label" parent="."]
 layout_mode = 0
-offset_top = 531.0
-offset_right = 150.0
-offset_bottom = 573.0
-theme_override_font_sizes/font_size = 30
-text = "当前温度："
-
-[node name="temText" type="Label" parent="Label"]
-offset_left = 169.0
-offset_right = 319.0
-offset_bottom = 42.0
+offset_left = 123.0
+offset_top = 203.0
+offset_right = 273.0
+offset_bottom = 245.0
 theme_override_font_sizes/font_size = 30
 text = "0"
 horizontal_alignment = 2
 
-[node name="Label2" type="Label" parent="."]
-offset_top = 609.0
-offset_right = 150.0
-offset_bottom = 651.0
-theme_override_font_sizes/font_size = 30
-text = "当前湿度："
-
-[node name="humText" type="Label" parent="Label2"]
-offset_left = 169.0
-offset_right = 319.0
-offset_bottom = 42.0
+[node name="humText" type="Label" parent="."]
+layout_mode = 0
+offset_left = 123.0
+offset_top = 326.0
+offset_right = 273.0
+offset_bottom = 368.0
 theme_override_font_sizes/font_size = 30
 text = "0"
 horizontal_alignment = 2
 
-[node name="Label3" type="Label" parent="."]
-offset_top = 685.0
-offset_right = 150.0
-offset_bottom = 727.0
-theme_override_font_sizes/font_size = 30
-text = "当前光照："
-
-[node name="lightText" type="Label" parent="Label3"]
-offset_left = 169.0
-offset_right = 319.0
-offset_bottom = 42.0
+[node name="lightText" type="Label" parent="."]
+layout_mode = 0
+offset_left = 123.0
+offset_top = 449.0
+offset_right = 273.0
+offset_bottom = 491.0
 theme_override_font_sizes/font_size = 30
 text = "0"
 horizontal_alignment = 2
+
+[node name="ConnIcon" type="TextureRect" parent="."]
+offset_left = 301.0
+offset_top = 286.0
+offset_right = 813.0
+offset_bottom = 798.0
+scale = Vector2(0.24, 0.24)
+texture = ExtResource("2_stg0l")
+
+[node name="PcIcon" type="TextureRect" parent="."]
+offset_left = 301.0
+offset_top = 163.0
+offset_right = 813.0
+offset_bottom = 675.0
+scale = Vector2(0.24, 0.24)
+texture = ExtResource("2_xfkc3")
+
+[node name="TemIcon" type="TextureRect" parent="."]
+layout_mode = 0
+offset_top = 163.0
+offset_right = 512.0
+offset_bottom = 675.0
+scale = Vector2(0.24, 0.24)
+texture = ExtResource("2_rcxye")
+
+[node name="HumIcon" type="TextureRect" parent="."]
+offset_top = 286.0
+offset_right = 512.0
+offset_bottom = 798.0
+scale = Vector2(0.24, 0.24)
+texture = ExtResource("3_xfkc3")
+
+[node name="LightIcon" type="TextureRect" parent="."]
+offset_top = 409.0
+offset_right = 512.0
+offset_bottom = 921.0
+scale = Vector2(0.24, 0.24)
+texture = ExtResource("4_gbe6t")
+
+[node name="ReConnect" type="TextureButton" parent="."]
+layout_mode = 0
+offset_left = 476.0
+offset_right = 988.0
+offset_bottom = 512.0
+scale = Vector2(0.24, 0.24)
+texture_normal = ExtResource("6_gbe6t")
+texture_hover = ExtResource("8_xoman")
