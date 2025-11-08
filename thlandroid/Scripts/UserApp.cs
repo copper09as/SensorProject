@@ -3,12 +3,7 @@ using System;
 
 public partial class UserApp : Node
 {
-    [Export]
-    private TextEdit addEdit;
-    [Export]
-    private TextEdit portEdit;
-    [Export]
-    private Button connectBtn;
+
     [Export]
     private Label temText;
     [Export]
@@ -17,23 +12,35 @@ public partial class UserApp : Node
     private Label lightText;
     [Export]
     private Label sensorStateText;
+    [Export]
+    private TextureButton btnReConnect;
+    [Export]
+    private Label signalText;
     public override void _Ready()
     {
-        connectBtn.Pressed += OnConnectPressed;
         NetManager.AddEventListener(NetEvent.ConnectSucc, OnConnect);
         NetManager.AddEventListener(NetEvent.ConnectFail, OnConnectFail);
+        NetManager.AddEventListener(NetEvent.Close, OnClose);
         NetManager.AddMsgListener("MsgForward", ReceiveTHL);
-        NetManager.AddMsgListener("MsgSensorState",SensorStateChange);
+        NetManager.AddMsgListener("MsgSensorState", SensorStateChange);
 
+        btnReConnect.Pressed += OnConnectPressed;
+        NetManager.Connect("60.215.128.110", 43195);
     }
+
+
+
 
     private void SensorStateChange(MsgBase msgBase)
     {
-            MsgSensorState msg = (MsgSensorState)msgBase;
-            if(msg.SensorState==1)
-            {
-                sensorStateText.Text = "传感器异常";
-            }
+        MsgSensorState msg = (MsgSensorState)msgBase;
+        if (msg.SensorState == 1)
+        {
+            sensorStateText.Text = "传感器异常";
+            temText.Text = "-- °C";
+            humText.Text = "-- %";
+            lightText.Text = "-- lux";
+        }
     }
 
 
@@ -54,19 +61,32 @@ public partial class UserApp : Node
 
     private void OnConnectFail(string err)
     {
-        GD.Print(err);
-    }
 
+        CallDeferred(nameof(UpdateUIAfterConnect));
+    }
+    private void UpdateUIAfterConnect()
+    {
+        signalText.Text = "服务器异常";
+    }
 
     private void OnConnect(string err)
     {
-        
-        GD.Print(err);
-    }
 
+        CallDeferred(nameof(UpdateUIAfterConnectSucc));
+    }
+    private void OnClose(string err)
+    {
+
+       CallDeferred(nameof(UpdateUIAfterConnect));
+    }
+    private void UpdateUIAfterConnectSucc()
+    {
+
+        signalText.Text = "连接服务器";
+    }
 
     private void OnConnectPressed()
     {
-       NetManager.Connect(addEdit.Text, Convert.ToInt32(portEdit.Text));
+        NetManager.Connect("60.215.128.110", 43195);
     }
 }

@@ -11,6 +11,7 @@ namespace Game.Script.Net
     {
         public Socket socket;
         public ByteArray readBuff = new ByteArray();
+
         public long lastPingTime = 0;
     }
 }

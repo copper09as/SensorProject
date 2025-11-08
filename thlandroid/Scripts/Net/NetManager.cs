@@ -10,7 +10,7 @@ using Godot;
 public static class NetManager
 {
     
-    static Socket socket;
+    public static Socket socket;
 	static ByteArray readBuff;
 	static Queue<ByteArray> writeQueue;
     static bool isClosing = false;

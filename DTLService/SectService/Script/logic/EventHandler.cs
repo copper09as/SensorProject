@@ -13,6 +13,7 @@ public class EventHandler
     }
     public static void CheckPing()
     {
+        return;
         long timeNow = NetManager.GetTimeStamp();
         foreach(ClientState s in NetManager.clients.Values)
         {

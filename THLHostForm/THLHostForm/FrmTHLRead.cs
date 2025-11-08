@@ -87,9 +87,6 @@ namespace THLHostForm
             }
         }
 
-        private void FrmTHLRead_FormClosed(object sender, FormClosedEventArgs e)
-        {
-        }
 
         private void btnReset_Click(object sender, EventArgs e)
         {
@@ -119,15 +116,16 @@ namespace THLHostForm
             }
             else
             {
+                MsgSensorState msgSensorState = new MsgSensorState();
+                msgSensorState.SensorState = 1;
+                NetManager.Send(msgSensorState);
                 timer1.Enabled = false;
                 e.Cancel = false;
             }
         }
 
         private void btnClose_Click(object sender, EventArgs e)
-        {   MsgSensorState msgSensorState = new MsgSensorState();
-            msgSensorState.SensorState = 0;
-            NetManager.Send(msgSensorState);
+        { 
             Close();
         }
     }
