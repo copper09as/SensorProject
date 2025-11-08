@@ -1,0 +1,6 @@
+C:\Users\49469\Documents\THLHostForm\ModubusHelper\bin\Debug\ModubusHelper.dll
+C:\Users\49469\Documents\THLHostForm\ModubusHelper\bin\Debug\ModubusHelper.pdb
+C:\Users\49469\Documents\THLHostForm\ModubusHelper\obj\Debug\ModubusHelper.csproj.AssemblyReference.cache
+C:\Users\49469\Documents\THLHostForm\ModubusHelper\obj\Debug\ModubusHelper.csproj.CoreCompileInputs.cache
+C:\Users\49469\Documents\THLHostForm\ModubusHelper\obj\Debug\ModubusHelper.dll
+C:\Users\49469\Documents\THLHostForm\ModubusHelper\obj\Debug\ModubusHelper.pdb

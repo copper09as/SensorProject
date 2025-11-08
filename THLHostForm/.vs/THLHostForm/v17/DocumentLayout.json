@@ -1,0 +1,543 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\49469\\Documents\\THLHostForm\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3EC376AE-8CC6-47B8-91A2-417ACA527F39}|Net\\Net.csproj|C:\\Users\\49469\\Documents\\THLHostForm\\net\\netmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EC376AE-8CC6-47B8-91A2-417ACA527F39}|Net\\Net.csproj|solutionrelative:net\\netmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EC376AE-8CC6-47B8-91A2-417ACA527F39}|Net\\Net.csproj|C:\\Users\\49469\\Documents\\THLHostForm\\net\\bytearray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EC376AE-8CC6-47B8-91A2-417ACA527F39}|Net\\Net.csproj|solutionrelative:net\\bytearray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547C2B6C-8FC4-46DF-8A66-5D1FF28F3C87}|THLHostForm\\THLHostForm.csproj|C:\\Users\\49469\\Documents\\THLHostForm\\thlhostform\\frmportmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{547C2B6C-8FC4-46DF-8A66-5D1FF28F3C87}|THLHostForm\\THLHostForm.csproj|solutionrelative:thlhostform\\frmportmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547C2B6C-8FC4-46DF-8A66-5D1FF28F3C87}|THLHostForm\\THLHostForm.csproj|C:\\Users\\49469\\Documents\\THLHostForm\\thlhostform\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{547C2B6C-8FC4-46DF-8A66-5D1FF28F3C87}|THLHostForm\\THLHostForm.csproj|solutionrelative:thlhostform\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547C2B6C-8FC4-46DF-8A66-5D1FF28F3C87}|THLHostForm\\THLHostForm.csproj|C:\\Users\\49469\\Documents\\THLHostForm\\thlhostform\\frmdatashow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{547C2B6C-8FC4-46DF-8A66-5D1FF28F3C87}|THLHostForm\\THLHostForm.csproj|solutionrelative:thlhostform\\frmdatashow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547C2B6C-8FC4-46DF-8A66-5D1FF28F3C87}|THLHostForm\\THLHostForm.csproj|C:\\Users\\49469\\Documents\\THLHostForm\\thlhostform\\frmthlread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{547C2B6C-8FC4-46DF-8A66-5D1FF28F3C87}|THLHostForm\\THLHostForm.csproj|solutionrelative:thlhostform\\frmthlread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547C2B6C-8FC4-46DF-8A66-5D1FF28F3C87}|THLHostForm\\THLHostForm.csproj|c:\\users\\49469\\documents\\thlhostform\\thlhostform\\frmportmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{547C2B6C-8FC4-46DF-8A66-5D1FF28F3C87}|THLHostForm\\THLHostForm.csproj|solutionrelative:thlhostform\\frmportmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547C2B6C-8FC4-46DF-8A66-5D1FF28F3C87}|THLHostForm\\THLHostForm.csproj|C:\\Users\\49469\\Documents\\THLHostForm\\thlhostform\\frmadminlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{547C2B6C-8FC4-46DF-8A66-5D1FF28F3C87}|THLHostForm\\THLHostForm.csproj|solutionrelative:thlhostform\\frmadminlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547C2B6C-8FC4-46DF-8A66-5D1FF28F3C87}|THLHostForm\\THLHostForm.csproj|C:\\Users\\49469\\Documents\\THLHostForm\\thlhostform\\frmadminlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{547C2B6C-8FC4-46DF-8A66-5D1FF28F3C87}|THLHostForm\\THLHostForm.csproj|solutionrelative:thlhostform\\frmadminlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547C2B6C-8FC4-46DF-8A66-5D1FF28F3C87}|THLHostForm\\THLHostForm.csproj|C:\\Users\\49469\\Documents\\THLHostForm\\thlhostform\\frmadminlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{547C2B6C-8FC4-46DF-8A66-5D1FF28F3C87}|THLHostForm\\THLHostForm.csproj|solutionrelative:thlhostform\\frmadminlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547C2B6C-8FC4-46DF-8A66-5D1FF28F3C87}|THLHostForm\\THLHostForm.csproj|C:\\Users\\49469\\Documents\\THLHostForm\\thlhostform\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{547C2B6C-8FC4-46DF-8A66-5D1FF28F3C87}|THLHostForm\\THLHostForm.csproj|solutionrelative:thlhostform\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547C2B6C-8FC4-46DF-8A66-5D1FF28F3C87}|THLHostForm\\THLHostForm.csproj|C:\\Users\\49469\\Documents\\THLHostForm\\thlhostform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{547C2B6C-8FC4-46DF-8A66-5D1FF28F3C87}|THLHostForm\\THLHostForm.csproj|solutionrelative:thlhostform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547C2B6C-8FC4-46DF-8A66-5D1FF28F3C87}|THLHostForm\\THLHostForm.csproj|C:\\Users\\49469\\Documents\\THLHostForm\\thlhostform\\frmthlread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{547C2B6C-8FC4-46DF-8A66-5D1FF28F3C87}|THLHostForm\\THLHostForm.csproj|solutionrelative:thlhostform\\frmthlread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EC376AE-8CC6-47B8-91A2-417ACA527F39}|Net\\Net.csproj|C:\\Users\\49469\\Documents\\THLHostForm\\net\\proto\\msgsensorstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EC376AE-8CC6-47B8-91A2-417ACA527F39}|Net\\Net.csproj|solutionrelative:net\\proto\\msgsensorstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EC376AE-8CC6-47B8-91A2-417ACA527F39}|Net\\Net.csproj|C:\\Users\\49469\\Documents\\THLHostForm\\net\\proto\\forwardmsg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EC376AE-8CC6-47B8-91A2-417ACA527F39}|Net\\Net.csproj|solutionrelative:net\\proto\\forwardmsg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EC376AE-8CC6-47B8-91A2-417ACA527F39}|Net\\Net.csproj|C:\\Users\\49469\\Documents\\THLHostForm\\net\\proto\\msgsys.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EC376AE-8CC6-47B8-91A2-417ACA527F39}|Net\\Net.csproj|solutionrelative:net\\proto\\msgsys.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EC376AE-8CC6-47B8-91A2-417ACA527F39}|Net\\Net.csproj|C:\\Users\\49469\\Documents\\THLHostForm\\net\\proto\\msgbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EC376AE-8CC6-47B8-91A2-417ACA527F39}|Net\\Net.csproj|solutionrelative:net\\proto\\msgbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547C2B6C-8FC4-46DF-8A66-5D1FF28F3C87}|THLHostForm\\THLHostForm.csproj|C:\\Users\\49469\\Documents\\THLHostForm\\thlhostform\\frmdatashow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{547C2B6C-8FC4-46DF-8A66-5D1FF28F3C87}|THLHostForm\\THLHostForm.csproj|solutionrelative:thlhostform\\frmdatashow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547C2B6C-8FC4-46DF-8A66-5D1FF28F3C87}|THLHostForm\\THLHostForm.csproj|C:\\Users\\49469\\Documents\\THLHostForm\\thlhostform\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{547C2B6C-8FC4-46DF-8A66-5D1FF28F3C87}|THLHostForm\\THLHostForm.csproj|solutionrelative:thlhostform\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DB90D87-83FF-4354-B380-ACE0203E8106}|DAL\\DAL.csproj|C:\\Users\\49469\\Documents\\THLHostForm\\dal\\thldataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DB90D87-83FF-4354-B380-ACE0203E8106}|DAL\\DAL.csproj|solutionrelative:dal\\thldataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F7F96D-DCF8-46DD-BA7E-58FA09D267CD}|Models\\Models.csproj|C:\\Users\\49469\\Documents\\THLHostForm\\models\\thldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2F7F96D-DCF8-46DD-BA7E-58FA09D267CD}|Models\\Models.csproj|solutionrelative:models\\thldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DB90D87-83FF-4354-B380-ACE0203E8106}|DAL\\DAL.csproj|C:\\Users\\49469\\Documents\\THLHostForm\\dal\\sqlhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DB90D87-83FF-4354-B380-ACE0203E8106}|DAL\\DAL.csproj|solutionrelative:dal\\sqlhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F7F96D-DCF8-46DD-BA7E-58FA09D267CD}|Models\\Models.csproj|C:\\Users\\49469\\Documents\\THLHostForm\\models\\sysadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2F7F96D-DCF8-46DD-BA7E-58FA09D267CD}|Models\\Models.csproj|solutionrelative:models\\sysadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DB90D87-83FF-4354-B380-ACE0203E8106}|DAL\\DAL.csproj|C:\\Users\\49469\\Documents\\THLHostForm\\dal\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DB90D87-83FF-4354-B380-ACE0203E8106}|DAL\\DAL.csproj|solutionrelative:dal\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D35237D6-E908-4BFA-B37D-04A26FBCEAAC}|ModubusHelper\\ModbusDAL.csproj|C:\\Users\\49469\\Documents\\THLHostForm\\modubushelper\\modbushelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D35237D6-E908-4BFA-B37D-04A26FBCEAAC}|ModubusHelper\\ModbusDAL.csproj|solutionrelative:modubushelper\\modbushelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D35237D6-E908-4BFA-B37D-04A26FBCEAAC}|ModubusHelper\\ModbusDAL.csproj|C:\\Users\\49469\\Documents\\THLHostForm\\modubushelper\\modbusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D35237D6-E908-4BFA-B37D-04A26FBCEAAC}|ModubusHelper\\ModbusDAL.csproj|solutionrelative:modubushelper\\modbusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547C2B6C-8FC4-46DF-8A66-5D1FF28F3C87}|THLHostForm\\THLHostForm.csproj|C:\\Users\\49469\\Documents\\THLHostForm\\thlhostform\\frmthlread.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{547C2B6C-8FC4-46DF-8A66-5D1FF28F3C87}|THLHostForm\\THLHostForm.csproj|solutionrelative:thlhostform\\frmthlread.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D35237D6-E908-4BFA-B37D-04A26FBCEAAC}|ModubusHelper\\ModbusDAL.csproj|C:\\Users\\49469\\Documents\\THLHostForm\\modubushelper\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{D35237D6-E908-4BFA-B37D-04A26FBCEAAC}|ModubusHelper\\ModbusDAL.csproj|solutionrelative:modubushelper\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D35237D6-E908-4BFA-B37D-04A26FBCEAAC}|ModubusHelper\\ModbusDAL.csproj|C:\\Users\\49469\\Documents\\THLHostForm\\modubushelper\\events.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D35237D6-E908-4BFA-B37D-04A26FBCEAAC}|ModubusHelper\\ModbusDAL.csproj|solutionrelative:modubushelper\\events.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D35237D6-E908-4BFA-B37D-04A26FBCEAAC}|ModubusHelper\\ModbusDAL.csproj|C:\\Users\\49469\\Documents\\THLHostForm\\modubushelper\\eventbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D35237D6-E908-4BFA-B37D-04A26FBCEAAC}|ModubusHelper\\ModbusDAL.csproj|solutionrelative:modubushelper\\eventbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547C2B6C-8FC4-46DF-8A66-5D1FF28F3C87}|THLHostForm\\THLHostForm.csproj|C:\\Users\\49469\\Documents\\THLHostForm\\thlhostform\\frmportmanager.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{547C2B6C-8FC4-46DF-8A66-5D1FF28F3C87}|THLHostForm\\THLHostForm.csproj|solutionrelative:thlhostform\\frmportmanager.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrmPortManager.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "C:\\Users\\49469\\Documents\\THLHostForm\\THLHostForm\\FrmPortManager.cs",
+              "RelativeDocumentMoniker": "THLHostForm\\FrmPortManager.cs",
+              "ToolTip": "C:\\Users\\49469\\Documents\\THLHostForm\\THLHostForm\\FrmPortManager.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "THLHostForm\\FrmPortManager.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T07:04:44.204Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FrmDataShow.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "C:\\Users\\49469\\Documents\\THLHostForm\\THLHostForm\\FrmDataShow.cs",
+              "RelativeDocumentMoniker": "THLHostForm\\FrmDataShow.cs",
+              "ToolTip": "C:\\Users\\49469\\Documents\\THLHostForm\\THLHostForm\\FrmDataShow.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "THLHostForm\\FrmDataShow.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T04:43:52.819Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FrmMain.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "C:\\Users\\49469\\Documents\\THLHostForm\\THLHostForm\\FrmMain.cs",
+              "RelativeDocumentMoniker": "THLHostForm\\FrmMain.cs",
+              "ToolTip": "C:\\Users\\49469\\Documents\\THLHostForm\\THLHostForm\\FrmMain.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "THLHostForm\\FrmMain.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T13:27:23.575Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NetManager.cs",
+              "DocumentMoniker": "C:\\Users\\49469\\Documents\\THLHostForm\\Net\\NetManager.cs",
+              "RelativeDocumentMoniker": "Net\\NetManager.cs",
+              "ToolTip": "C:\\Users\\49469\\Documents\\THLHostForm\\Net\\NetManager.cs",
+              "RelativeToolTip": "Net\\NetManager.cs",
+              "ViewState": "AgIAAJUAAAAAAAAAAAAAAKgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T03:09:17.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ByteArray.cs",
+              "DocumentMoniker": "C:\\Users\\49469\\Documents\\THLHostForm\\Net\\ByteArray.cs",
+              "RelativeDocumentMoniker": "Net\\ByteArray.cs",
+              "ToolTip": "C:\\Users\\49469\\Documents\\THLHostForm\\Net\\ByteArray.cs",
+              "RelativeToolTip": "Net\\ByteArray.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIAzwBEAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T03:09:18.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FrmTHLRead.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "C:\\Users\\49469\\Documents\\THLHostForm\\THLHostForm\\FrmTHLRead.cs",
+              "RelativeDocumentMoniker": "THLHostForm\\FrmTHLRead.cs",
+              "ToolTip": "C:\\Users\\49469\\Documents\\THLHostForm\\THLHostForm\\FrmTHLRead.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "THLHostForm\\FrmTHLRead.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T04:44:45.373Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FrmPortManager.cs",
+              "DocumentMoniker": "C:\\Users\\49469\\Documents\\THLHostForm\\THLHostForm\\FrmPortManager.cs",
+              "RelativeDocumentMoniker": "THLHostForm\\FrmPortManager.cs",
+              "ToolTip": "C:\\Users\\49469\\Documents\\THLHostForm\\THLHostForm\\FrmPortManager.cs",
+              "RelativeToolTip": "THLHostForm\\FrmPortManager.cs",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAvwJUAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T13:34:45.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FrmAdminLogin.cs",
+              "DocumentMoniker": "C:\\Users\\49469\\Documents\\THLHostForm\\THLHostForm\\FrmAdminLogin.cs",
+              "RelativeDocumentMoniker": "THLHostForm\\FrmAdminLogin.cs",
+              "ToolTip": "C:\\Users\\49469\\Documents\\THLHostForm\\THLHostForm\\FrmAdminLogin.cs",
+              "RelativeToolTip": "THLHostForm\\FrmAdminLogin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T15:29:44.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FrmAdminLogin.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "C:\\Users\\49469\\Documents\\THLHostForm\\THLHostForm\\FrmAdminLogin.cs",
+              "RelativeDocumentMoniker": "THLHostForm\\FrmAdminLogin.cs",
+              "ToolTip": "C:\\Users\\49469\\Documents\\THLHostForm\\THLHostForm\\FrmAdminLogin.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "THLHostForm\\FrmAdminLogin.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T07:07:52.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FrmAdminLogin.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\49469\\Documents\\THLHostForm\\THLHostForm\\FrmAdminLogin.Designer.cs",
+              "RelativeDocumentMoniker": "THLHostForm\\FrmAdminLogin.Designer.cs",
+              "ToolTip": "C:\\Users\\49469\\Documents\\THLHostForm\\THLHostForm\\FrmAdminLogin.Designer.cs",
+              "RelativeToolTip": "THLHostForm\\FrmAdminLogin.Designer.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAewGQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T07:07:16.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FrmMain.cs",
+              "DocumentMoniker": "C:\\Users\\49469\\Documents\\THLHostForm\\THLHostForm\\FrmMain.cs",
+              "RelativeDocumentMoniker": "THLHostForm\\FrmMain.cs",
+              "ToolTip": "C:\\Users\\49469\\Documents\\THLHostForm\\THLHostForm\\FrmMain.cs",
+              "RelativeToolTip": "THLHostForm\\FrmMain.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAowBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T12:38:04.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\49469\\Documents\\THLHostForm\\THLHostForm\\Program.cs",
+              "RelativeDocumentMoniker": "THLHostForm\\Program.cs",
+              "ToolTip": "C:\\Users\\49469\\Documents\\THLHostForm\\THLHostForm\\Program.cs",
+              "RelativeToolTip": "THLHostForm\\Program.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAYwBcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T14:33:13.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FrmTHLRead.cs",
+              "DocumentMoniker": "C:\\Users\\49469\\Documents\\THLHostForm\\THLHostForm\\FrmTHLRead.cs",
+              "RelativeDocumentMoniker": "THLHostForm\\FrmTHLRead.cs",
+              "ToolTip": "C:\\Users\\49469\\Documents\\THLHostForm\\THLHostForm\\FrmTHLRead.cs",
+              "RelativeToolTip": "THLHostForm\\FrmTHLRead.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAIAywH8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T14:45:34.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MsgSensorState.cs",
+              "DocumentMoniker": "C:\\Users\\49469\\Documents\\THLHostForm\\Net\\Proto\\MsgSensorState.cs",
+              "RelativeDocumentMoniker": "Net\\Proto\\MsgSensorState.cs",
+              "ToolTip": "C:\\Users\\49469\\Documents\\THLHostForm\\Net\\Proto\\MsgSensorState.cs",
+              "RelativeToolTip": "Net\\Proto\\MsgSensorState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T06:43:43.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ForwardMsg.cs",
+              "DocumentMoniker": "C:\\Users\\49469\\Documents\\THLHostForm\\Net\\Proto\\ForwardMsg.cs",
+              "RelativeDocumentMoniker": "Net\\Proto\\ForwardMsg.cs",
+              "ToolTip": "C:\\Users\\49469\\Documents\\THLHostForm\\Net\\Proto\\ForwardMsg.cs",
+              "RelativeToolTip": "Net\\Proto\\ForwardMsg.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T03:17:12.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MsgBase.cs",
+              "DocumentMoniker": "C:\\Users\\49469\\Documents\\THLHostForm\\Net\\Proto\\MsgBase.cs",
+              "RelativeDocumentMoniker": "Net\\Proto\\MsgBase.cs",
+              "ToolTip": "C:\\Users\\49469\\Documents\\THLHostForm\\Net\\Proto\\MsgBase.cs",
+              "RelativeToolTip": "Net\\Proto\\MsgBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswAUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T03:08:25.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MsgSys.cs",
+              "DocumentMoniker": "C:\\Users\\49469\\Documents\\THLHostForm\\Net\\Proto\\MsgSys.cs",
+              "RelativeDocumentMoniker": "Net\\Proto\\MsgSys.cs",
+              "ToolTip": "C:\\Users\\49469\\Documents\\THLHostForm\\Net\\Proto\\MsgSys.cs",
+              "RelativeToolTip": "Net\\Proto\\MsgSys.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwoAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T03:10:40.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "FrmDataShow.cs",
+              "DocumentMoniker": "C:\\Users\\49469\\Documents\\THLHostForm\\THLHostForm\\FrmDataShow.cs",
+              "RelativeDocumentMoniker": "THLHostForm\\FrmDataShow.cs",
+              "ToolTip": "C:\\Users\\49469\\Documents\\THLHostForm\\THLHostForm\\FrmDataShow.cs",
+              "RelativeToolTip": "THLHostForm\\FrmDataShow.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAADwv2QAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T04:48:59.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\49469\\Documents\\THLHostForm\\THLHostForm\\packages.config",
+              "RelativeDocumentMoniker": "THLHostForm\\packages.config",
+              "ToolTip": "C:\\Users\\49469\\Documents\\THLHostForm\\THLHostForm\\packages.config",
+              "RelativeToolTip": "THLHostForm\\packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-11-08T04:43:26.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "THLDataService.cs",
+              "DocumentMoniker": "C:\\Users\\49469\\Documents\\THLHostForm\\DAL\\THLDataService.cs",
+              "RelativeDocumentMoniker": "DAL\\THLDataService.cs",
+              "ToolTip": "C:\\Users\\49469\\Documents\\THLHostForm\\DAL\\THLDataService.cs",
+              "RelativeToolTip": "DAL\\THLDataService.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAowAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T12:15:03.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "THLData.cs",
+              "DocumentMoniker": "C:\\Users\\49469\\Documents\\THLHostForm\\Models\\THLData.cs",
+              "RelativeDocumentMoniker": "Models\\THLData.cs",
+              "ToolTip": "C:\\Users\\49469\\Documents\\THLHostForm\\Models\\THLData.cs",
+              "RelativeToolTip": "Models\\THLData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvw8AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T12:13:11.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "SQLHelper.cs",
+              "DocumentMoniker": "C:\\Users\\49469\\Documents\\THLHostForm\\DAL\\SQLHelper.cs",
+              "RelativeDocumentMoniker": "DAL\\SQLHelper.cs",
+              "ToolTip": "C:\\Users\\49469\\Documents\\THLHostForm\\DAL\\SQLHelper.cs",
+              "RelativeToolTip": "DAL\\SQLHelper.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAADwv0MAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T12:08:19.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "SysAdmin.cs",
+              "DocumentMoniker": "C:\\Users\\49469\\Documents\\THLHostForm\\Models\\SysAdmin.cs",
+              "RelativeDocumentMoniker": "Models\\SysAdmin.cs",
+              "ToolTip": "C:\\Users\\49469\\Documents\\THLHostForm\\Models\\SysAdmin.cs",
+              "RelativeToolTip": "Models\\SysAdmin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T15:13:30.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AdminService.cs",
+              "DocumentMoniker": "C:\\Users\\49469\\Documents\\THLHostForm\\DAL\\AdminService.cs",
+              "RelativeDocumentMoniker": "DAL\\AdminService.cs",
+              "ToolTip": "C:\\Users\\49469\\Documents\\THLHostForm\\DAL\\AdminService.cs",
+              "RelativeToolTip": "DAL\\AdminService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T15:14:21.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ModbusHelper.cs",
+              "DocumentMoniker": "C:\\Users\\49469\\Documents\\THLHostForm\\ModubusHelper\\ModbusHelper.cs",
+              "RelativeDocumentMoniker": "ModubusHelper\\ModbusHelper.cs",
+              "ToolTip": "C:\\Users\\49469\\Documents\\THLHostForm\\ModubusHelper\\ModbusHelper.cs",
+              "RelativeToolTip": "ModubusHelper\\ModbusHelper.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAwwFkAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T13:29:22.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ModbusService.cs",
+              "DocumentMoniker": "C:\\Users\\49469\\Documents\\THLHostForm\\ModubusHelper\\ModbusService.cs",
+              "RelativeDocumentMoniker": "ModubusHelper\\ModbusService.cs",
+              "ToolTip": "C:\\Users\\49469\\Documents\\THLHostForm\\ModubusHelper\\ModbusService.cs",
+              "RelativeToolTip": "ModubusHelper\\ModbusService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T13:27:27.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "FrmTHLRead.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\49469\\Documents\\THLHostForm\\THLHostForm\\FrmTHLRead.Designer.cs",
+              "RelativeDocumentMoniker": "THLHostForm\\FrmTHLRead.Designer.cs",
+              "ToolTip": "C:\\Users\\49469\\Documents\\THLHostForm\\THLHostForm\\FrmTHLRead.Designer.cs",
+              "RelativeToolTip": "THLHostForm\\FrmTHLRead.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T03:45:50.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\49469\\Documents\\THLHostForm\\ModubusHelper\\packages.config",
+              "RelativeDocumentMoniker": "ModubusHelper\\packages.config",
+              "ToolTip": "C:\\Users\\49469\\Documents\\THLHostForm\\ModubusHelper\\packages.config",
+              "RelativeToolTip": "ModubusHelper\\packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-10-20T02:16:27.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Events.cs",
+              "DocumentMoniker": "C:\\Users\\49469\\Documents\\THLHostForm\\ModubusHelper\\Events.cs",
+              "RelativeDocumentMoniker": "ModubusHelper\\Events.cs",
+              "ToolTip": "C:\\Users\\49469\\Documents\\THLHostForm\\ModubusHelper\\Events.cs",
+              "RelativeToolTip": "ModubusHelper\\Events.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T13:31:18.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "EventBus.cs",
+              "DocumentMoniker": "C:\\Users\\49469\\Documents\\THLHostForm\\ModubusHelper\\EventBus.cs",
+              "RelativeDocumentMoniker": "ModubusHelper\\EventBus.cs",
+              "ToolTip": "C:\\Users\\49469\\Documents\\THLHostForm\\ModubusHelper\\EventBus.cs",
+              "RelativeToolTip": "ModubusHelper\\EventBus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T14:22:33.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "FrmPortManager.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\49469\\Documents\\THLHostForm\\THLHostForm\\FrmPortManager.Designer.cs",
+              "RelativeDocumentMoniker": "THLHostForm\\FrmPortManager.Designer.cs",
+              "ToolTip": "C:\\Users\\49469\\Documents\\THLHostForm\\THLHostForm\\FrmPortManager.Designer.cs",
+              "RelativeToolTip": "THLHostForm\\FrmPortManager.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T14:24:33.926Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

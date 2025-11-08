@@ -1,0 +1,105 @@
+[gd_scene load_steps=2 format=3 uid="uid://gnpbbyrvwtfa"]
+
+[ext_resource type="Script" uid="uid://crcdytvqvdpip" path="res://Scripts/UserApp.cs" id="1_0p131"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="AddEdit" type="TextEdit" parent="."]
+layout_mode = 0
+offset_top = 4.0
+offset_right = 600.0
+offset_bottom = 78.0
+theme_override_font_sizes/font_size = 40
+placeholder_text = "地址"
+
+[node name="PortEdit" type="TextEdit" parent="."]
+offset_top = 130.0
+offset_right = 600.0
+offset_bottom = 202.0
+theme_override_font_sizes/font_size = 40
+placeholder_text = "端口"
+
+[node name="UserApp" type="Node" parent="." node_paths=PackedStringArray("addEdit", "portEdit", "connectBtn", "temText", "humText", "lightText", "sensorStateText")]
+script = ExtResource("1_0p131")
+addEdit = NodePath("../AddEdit")
+portEdit = NodePath("../PortEdit")
+connectBtn = NodePath("../ConnectBtn")
+temText = NodePath("../Label/temText")
+humText = NodePath("../Label2/humText")
+lightText = NodePath("../Label3/lightText")
+sensorStateText = NodePath("../Label4/temText")
+
+[node name="ConnectBtn" type="Button" parent="."]
+layout_mode = 0
+offset_top = 252.0
+offset_right = 600.0
+offset_bottom = 343.0
+theme_override_font_sizes/font_size = 40
+text = "连接"
+
+[node name="Label4" type="Label" parent="."]
+offset_top = 461.0
+offset_right = 150.0
+offset_bottom = 503.0
+theme_override_font_sizes/font_size = 30
+text = "监测状况："
+
+[node name="temText" type="Label" parent="Label4"]
+offset_left = 169.0
+offset_right = 319.0
+offset_bottom = 42.0
+theme_override_font_sizes/font_size = 30
+text = "传感器异常"
+horizontal_alignment = 2
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_top = 531.0
+offset_right = 150.0
+offset_bottom = 573.0
+theme_override_font_sizes/font_size = 30
+text = "当前温度："
+
+[node name="temText" type="Label" parent="Label"]
+offset_left = 169.0
+offset_right = 319.0
+offset_bottom = 42.0
+theme_override_font_sizes/font_size = 30
+text = "0"
+horizontal_alignment = 2
+
+[node name="Label2" type="Label" parent="."]
+offset_top = 609.0
+offset_right = 150.0
+offset_bottom = 651.0
+theme_override_font_sizes/font_size = 30
+text = "当前湿度："
+
+[node name="humText" type="Label" parent="Label2"]
+offset_left = 169.0
+offset_right = 319.0
+offset_bottom = 42.0
+theme_override_font_sizes/font_size = 30
+text = "0"
+horizontal_alignment = 2
+
+[node name="Label3" type="Label" parent="."]
+offset_top = 685.0
+offset_right = 150.0
+offset_bottom = 727.0
+theme_override_font_sizes/font_size = 30
+text = "当前光照："
+
+[node name="lightText" type="Label" parent="Label3"]
+offset_left = 169.0
+offset_right = 319.0
+offset_bottom = 42.0
+theme_override_font_sizes/font_size = 30
+text = "0"
+horizontal_alignment = 2

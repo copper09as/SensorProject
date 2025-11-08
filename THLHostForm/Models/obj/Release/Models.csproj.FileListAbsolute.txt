@@ -1,0 +1,11 @@
+C:\Users\49469\Documents\THLHostForm\Models\bin\Release\Models.dll
+C:\Users\49469\Documents\THLHostForm\Models\bin\Release\Models.pdb
+C:\Users\49469\Documents\THLHostForm\Models\bin\Release\Newtonsoft.Json.dll
+C:\Users\49469\Documents\THLHostForm\Models\bin\Release\NModbus4.dll
+C:\Users\49469\Documents\THLHostForm\Models\bin\Release\Newtonsoft.Json.xml
+C:\Users\49469\Documents\THLHostForm\Models\bin\Release\NModbus4.xml
+C:\Users\49469\Documents\THLHostForm\Models\obj\Release\Models.csproj.AssemblyReference.cache
+C:\Users\49469\Documents\THLHostForm\Models\obj\Release\Models.csproj.CoreCompileInputs.cache
+C:\Users\49469\Documents\THLHostForm\Models\obj\Release\Models.csproj.Up2Date
+C:\Users\49469\Documents\THLHostForm\Models\obj\Release\Models.dll
+C:\Users\49469\Documents\THLHostForm\Models\obj\Release\Models.pdb

@@ -1,0 +1,13 @@
+C:\Users\49469\Documents\THLHostForm\ModubusHelper\bin\Debug\ModubusHelper.dll
+C:\Users\49469\Documents\THLHostForm\ModubusHelper\bin\Debug\ModubusHelper.pdb
+C:\Users\49469\Documents\THLHostForm\ModubusHelper\obj\Debug\ModbusDAL.csproj.AssemblyReference.cache
+C:\Users\49469\Documents\THLHostForm\ModubusHelper\obj\Debug\ModbusDAL.csproj.CoreCompileInputs.cache
+C:\Users\49469\Documents\THLHostForm\ModubusHelper\obj\Debug\ModubusHelper.dll
+C:\Users\49469\Documents\THLHostForm\ModubusHelper\obj\Debug\ModubusHelper.pdb
+C:\Users\49469\Documents\THLHostForm\ModubusHelper\bin\Debug\Models.dll
+C:\Users\49469\Documents\THLHostForm\ModubusHelper\bin\Debug\Models.pdb
+C:\Users\49469\Documents\THLHostForm\ModubusHelper\obj\Debug\ModbusDAL.csproj.Up2Date
+C:\Users\49469\Documents\THLHostForm\ModubusHelper\bin\Debug\Newtonsoft.Json.dll
+C:\Users\49469\Documents\THLHostForm\ModubusHelper\bin\Debug\NModbus4.dll
+C:\Users\49469\Documents\THLHostForm\ModubusHelper\bin\Debug\Newtonsoft.Json.xml
+C:\Users\49469\Documents\THLHostForm\ModubusHelper\bin\Debug\NModbus4.xml
