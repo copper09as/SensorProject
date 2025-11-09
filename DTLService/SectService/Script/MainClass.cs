@@ -11,8 +11,10 @@ namespace Game.Script
     {
         public static void Main(string[] arg)
         {
-            var port = Convert.ToInt32(Console.ReadLine());
-            NetManager.StartLoop(port);
+
+            //var port = Convert.ToInt32(Console.ReadLine());
+            NetManager.StartLoop(43195);
+            
         }
     }
 }

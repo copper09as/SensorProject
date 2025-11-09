@@ -87,8 +87,8 @@ namespace ModbusDAL
                     objSerialPort.Parity = Parity.None;
                     objSerialPort.DataBits = 8;
                     objSerialPort.StopBits = StopBits.One;
-                    objSerialPort.ReadTimeout = 1000;
-                    objSerialPort.WriteTimeout = 1000; // 500ms 超时
+                    objSerialPort.ReadTimeout = 500;
+                    objSerialPort.WriteTimeout = 500;
                     master = ModbusSerialMaster.CreateRtu(objSerialPort);
                     master.Transport.ReadTimeout = 1000;
                     master.Transport.Retries = 1;

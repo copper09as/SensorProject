@@ -16,6 +16,8 @@ public partial class UserApp : Node
     private TextureButton btnReConnect;
     [Export]
     private Label signalText;
+    [Export]
+    private Label analyText;
     public override void _Ready()
     {
         NetManager.AddEventListener(NetEvent.ConnectSucc, OnConnect);
@@ -23,12 +25,16 @@ public partial class UserApp : Node
         NetManager.AddEventListener(NetEvent.Close, OnClose);
         NetManager.AddMsgListener("MsgForward", ReceiveTHL);
         NetManager.AddMsgListener("MsgSensorState", SensorStateChange);
-
+        NetManager.AddMsgListener("MsgThlAnaly", DisplayAnalyResult);
         btnReConnect.Pressed += OnConnectPressed;
         NetManager.Connect("60.215.128.110", 43195);
     }
 
-
+    private void DisplayAnalyResult(MsgBase msgBase)
+    {
+        MsgThlAnaly msg = (MsgThlAnaly)msgBase;
+        analyText.Text = msg.AnalyResult;
+    }
 
 
     private void SensorStateChange(MsgBase msgBase)
@@ -40,10 +46,9 @@ public partial class UserApp : Node
             temText.Text = "-- °C";
             humText.Text = "-- %";
             lightText.Text = "-- lux";
+            analyText.Text = "";
         }
     }
-
-
     public override void _Process(double delta)
     {
         NetManager.Update();
@@ -61,7 +66,6 @@ public partial class UserApp : Node
 
     private void OnConnectFail(string err)
     {
-
         CallDeferred(nameof(UpdateUIAfterConnect));
     }
     private void UpdateUIAfterConnect()

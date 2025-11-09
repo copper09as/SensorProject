@@ -51,6 +51,7 @@
     <Compile Include="Proto\MsgBase.cs" />
     <Compile Include="Proto\MsgSensorState.cs" />
     <Compile Include="Proto\MsgSys.cs" />
+    <Compile Include="Proto\MsgThlAnaly.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

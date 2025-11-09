@@ -8,6 +8,5 @@ public partial class MsgHandler
         {
             NetManager.Send(client, msg);
         }
-        Console.WriteLine(msg.thlData.ToString());
     }
 }

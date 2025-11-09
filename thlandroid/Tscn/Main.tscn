@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=3 uid="uid://gnpbbyrvwtfa"]
+[gd_scene load_steps=11 format=3 uid="uid://gnpbbyrvwtfa"]
 
 [ext_resource type="Script" uid="uid://crcdytvqvdpip" path="res://Scripts/UserApp.cs" id="1_0p131"]
 [ext_resource type="Texture2D" uid="uid://bgjaohseid5ua" path="res://Art/thermometer-hot.png" id="2_rcxye"]
@@ -7,6 +7,7 @@
 [ext_resource type="Texture2D" uid="uid://demql2q5bjl8g" path="res://Art/water-drop.png" id="3_xfkc3"]
 [ext_resource type="Texture2D" uid="uid://dcuvf2w3dmpbb" path="res://Art/sun.png" id="4_gbe6t"]
 [ext_resource type="Texture2D" uid="uid://dknxpoowvieqf" path="res://Art/cycle.png" id="6_gbe6t"]
+[ext_resource type="Texture2D" uid="uid://hrlgbhdvtbb7" path="res://Art/think.png" id="7_acmn0"]
 [ext_resource type="Texture2D" uid="uid://5mlm375h3ovp" path="res://Art/confirmed.png" id="8_xoman"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_0p131"]
@@ -30,25 +31,18 @@ offset_bottom = 38.0
 scale = Vector2(15, 20.2)
 theme_override_styles/panel = SubResource("StyleBoxFlat_0p131")
 
-[node name="UserApp" type="Node" parent="." node_paths=PackedStringArray("temText", "humText", "lightText", "sensorStateText", "btnReConnect", "signalText")]
+[node name="UserApp" type="Node" parent="." node_paths=PackedStringArray("temText", "humText", "lightText", "sensorStateText", "btnReConnect", "signalText", "analyText")]
 script = ExtResource("1_0p131")
-temText = NodePath("../temText")
-humText = NodePath("../humText")
-lightText = NodePath("../lightText")
-sensorStateText = NodePath("../SensorText")
+temText = NodePath("../Control/Tem/temText")
+humText = NodePath("../Control/Hum/humText")
+lightText = NodePath("../Control/Light/lightText")
+sensorStateText = NodePath("../Control/Sensor/SensorText")
 btnReConnect = NodePath("../ReConnect")
-signalText = NodePath("../SignalText")
-
-[node name="SignalText" type="Label" parent="."]
-offset_left = 446.0
-offset_top = 326.0
-offset_right = 596.0
-offset_bottom = 368.0
-theme_override_font_sizes/font_size = 30
-text = "服务器异常"
-horizontal_alignment = 2
+signalText = NodePath("../Control/Service/SignalText")
+analyText = NodePath("../Control/Analy/AnalyText")
 
 [node name="TitleText" type="Label" parent="."]
+layout_mode = 0
 offset_left = 70.0
 offset_top = 47.0
 offset_right = 460.0
@@ -56,84 +50,6 @@ offset_bottom = 110.0
 theme_override_font_sizes/font_size = 30
 text = "传感器监测与控制（第十组）"
 horizontal_alignment = 2
-
-[node name="SensorText" type="Label" parent="."]
-layout_mode = 0
-offset_left = 446.0
-offset_top = 203.0
-offset_right = 596.0
-offset_bottom = 245.0
-theme_override_font_sizes/font_size = 30
-text = "传感器异常"
-horizontal_alignment = 2
-
-[node name="temText" type="Label" parent="."]
-layout_mode = 0
-offset_left = 123.0
-offset_top = 203.0
-offset_right = 273.0
-offset_bottom = 245.0
-theme_override_font_sizes/font_size = 30
-text = "0"
-horizontal_alignment = 2
-
-[node name="humText" type="Label" parent="."]
-layout_mode = 0
-offset_left = 123.0
-offset_top = 326.0
-offset_right = 273.0
-offset_bottom = 368.0
-theme_override_font_sizes/font_size = 30
-text = "0"
-horizontal_alignment = 2
-
-[node name="lightText" type="Label" parent="."]
-layout_mode = 0
-offset_left = 123.0
-offset_top = 449.0
-offset_right = 273.0
-offset_bottom = 491.0
-theme_override_font_sizes/font_size = 30
-text = "0"
-horizontal_alignment = 2
-
-[node name="ConnIcon" type="TextureRect" parent="."]
-offset_left = 301.0
-offset_top = 286.0
-offset_right = 813.0
-offset_bottom = 798.0
-scale = Vector2(0.24, 0.24)
-texture = ExtResource("2_stg0l")
-
-[node name="PcIcon" type="TextureRect" parent="."]
-offset_left = 301.0
-offset_top = 163.0
-offset_right = 813.0
-offset_bottom = 675.0
-scale = Vector2(0.24, 0.24)
-texture = ExtResource("2_xfkc3")
-
-[node name="TemIcon" type="TextureRect" parent="."]
-layout_mode = 0
-offset_top = 163.0
-offset_right = 512.0
-offset_bottom = 675.0
-scale = Vector2(0.24, 0.24)
-texture = ExtResource("2_rcxye")
-
-[node name="HumIcon" type="TextureRect" parent="."]
-offset_top = 286.0
-offset_right = 512.0
-offset_bottom = 798.0
-scale = Vector2(0.24, 0.24)
-texture = ExtResource("3_xfkc3")
-
-[node name="LightIcon" type="TextureRect" parent="."]
-offset_top = 409.0
-offset_right = 512.0
-offset_bottom = 921.0
-scale = Vector2(0.24, 0.24)
-texture = ExtResource("4_gbe6t")
 
 [node name="ReConnect" type="TextureButton" parent="."]
 layout_mode = 0
@@ -143,3 +59,148 @@ offset_bottom = 512.0
 scale = Vector2(0.24, 0.24)
 texture_normal = ExtResource("6_gbe6t")
 texture_hover = ExtResource("8_xoman")
+
+[node name="Control" type="Control" parent="."]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Tem" type="Control" parent="Control"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="temText" type="Label" parent="Control/Tem"]
+layout_mode = 0
+offset_left = 123.0
+offset_top = 203.0
+offset_right = 273.0
+offset_bottom = 245.0
+theme_override_font_sizes/font_size = 30
+text = "0"
+horizontal_alignment = 2
+
+[node name="TemIcon" type="TextureRect" parent="Control/Tem"]
+layout_mode = 0
+offset_top = 163.0
+offset_right = 512.0
+offset_bottom = 675.0
+scale = Vector2(0.24, 0.24)
+texture = ExtResource("2_rcxye")
+
+[node name="Hum" type="Control" parent="Control"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="HumIcon" type="TextureRect" parent="Control/Hum"]
+layout_mode = 0
+offset_top = 286.0
+offset_right = 512.0
+offset_bottom = 798.0
+scale = Vector2(0.24, 0.24)
+texture = ExtResource("3_xfkc3")
+
+[node name="humText" type="Label" parent="Control/Hum"]
+layout_mode = 0
+offset_left = 123.0
+offset_top = 326.0
+offset_right = 273.0
+offset_bottom = 368.0
+theme_override_font_sizes/font_size = 30
+text = "0"
+horizontal_alignment = 2
+
+[node name="Light" type="Control" parent="Control"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="lightText" type="Label" parent="Control/Light"]
+layout_mode = 0
+offset_left = 123.0
+offset_top = 449.0
+offset_right = 273.0
+offset_bottom = 491.0
+theme_override_font_sizes/font_size = 30
+text = "0"
+horizontal_alignment = 2
+
+[node name="LightIcon" type="TextureRect" parent="Control/Light"]
+layout_mode = 0
+offset_top = 409.0
+offset_right = 512.0
+offset_bottom = 921.0
+scale = Vector2(0.24, 0.24)
+texture = ExtResource("4_gbe6t")
+
+[node name="Analy" type="Control" parent="Control"]
+anchors_preset = 0
+offset_left = 2.0
+offset_top = 47.0
+offset_right = 42.0
+offset_bottom = 87.0
+
+[node name="AnalyText" type="Label" parent="Control/Analy"]
+offset_left = 146.0
+offset_top = 532.0
+offset_right = 589.0
+offset_bottom = 696.0
+theme_override_font_sizes/font_size = 20
+autowrap_mode = 1
+
+[node name="AnalyIcon" type="TextureRect" parent="Control/Analy"]
+offset_left = 3.05176e-05
+offset_top = 532.0
+offset_right = 512.0
+offset_bottom = 1044.0
+scale = Vector2(0.24, 0.24)
+texture = ExtResource("7_acmn0")
+
+[node name="Sensor" type="Control" parent="Control"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="SensorText" type="Label" parent="Control/Sensor"]
+layout_mode = 0
+offset_left = 446.0
+offset_top = 203.0
+offset_right = 596.0
+offset_bottom = 245.0
+theme_override_font_sizes/font_size = 30
+text = "传感器异常"
+horizontal_alignment = 2
+
+[node name="PcIcon" type="TextureRect" parent="Control/Sensor"]
+layout_mode = 0
+offset_left = 301.0
+offset_top = 163.0
+offset_right = 813.0
+offset_bottom = 675.0
+scale = Vector2(0.24, 0.24)
+texture = ExtResource("2_xfkc3")
+
+[node name="Service" type="Control" parent="Control"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="SignalText" type="Label" parent="Control/Service"]
+layout_mode = 0
+offset_left = 446.0
+offset_top = 326.0
+offset_right = 596.0
+offset_bottom = 368.0
+theme_override_font_sizes/font_size = 30
+text = "服务器异常"
+horizontal_alignment = 2
+
+[node name="ConnIcon" type="TextureRect" parent="Control/Service"]
+layout_mode = 0
+offset_left = 301.0
+offset_top = 286.0
+offset_right = 813.0
+offset_bottom = 798.0
+scale = Vector2(0.24, 0.24)
+texture = ExtResource("2_stg0l")
