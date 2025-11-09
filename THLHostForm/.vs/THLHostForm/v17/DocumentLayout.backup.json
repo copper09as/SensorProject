@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{547C2B6C-8FC4-46DF-8A66-5D1FF28F3C87}|THLHostForm\\THLHostForm.csproj|C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\thlhostform\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D35237D6-E908-4BFA-B37D-04A26FBCEAAC}|ModubusHelper\\ModbusDAL.csproj|C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\modubushelper\\modbushelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D35237D6-E908-4BFA-B37D-04A26FBCEAAC}|ModubusHelper\\ModbusDAL.csproj|solutionrelative:modubushelper\\modbushelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D35237D6-E908-4BFA-B37D-04A26FBCEAAC}|ModubusHelper\\ModbusDAL.csproj|C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\modubushelper\\modbusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D35237D6-E908-4BFA-B37D-04A26FBCEAAC}|ModubusHelper\\ModbusDAL.csproj|solutionrelative:modubushelper\\modbusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547C2B6C-8FC4-46DF-8A66-5D1FF28F3C87}|THLHostForm\\THLHostForm.csproj|c:\\users\\49469\\documents\\github\\sensorproject\\thlhostform\\thlhostform\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{547C2B6C-8FC4-46DF-8A66-5D1FF28F3C87}|THLHostForm\\THLHostForm.csproj|solutionrelative:thlhostform\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{547C2B6C-8FC4-46DF-8A66-5D1FF28F3C87}|THLHostForm\\THLHostForm.csproj|C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\thlhostform\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{547C2B6C-8FC4-46DF-8A66-5D1FF28F3C87}|THLHostForm\\THLHostForm.csproj|solutionrelative:thlhostform\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{547C2B6C-8FC4-46DF-8A66-5D1FF28F3C87}|THLHostForm\\THLHostForm.csproj|C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\thlhostform\\frmthlread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{547C2B6C-8FC4-46DF-8A66-5D1FF28F3C87}|THLHostForm\\THLHostForm.csproj|solutionrelative:thlhostform\\frmthlread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{547C2B6C-8FC4-46DF-8A66-5D1FF28F3C87}|THLHostForm\\THLHostForm.csproj|C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\thlhostform\\frmthlread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -23,16 +23,32 @@
       "RelativeMoniker": "D:0:0:{547C2B6C-8FC4-46DF-8A66-5D1FF28F3C87}|THLHostForm\\THLHostForm.csproj|solutionrelative:thlhostform\\frmportmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{547C2B6C-8FC4-46DF-8A66-5D1FF28F3C87}|THLHostForm\\THLHostForm.csproj|C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\thlhostform\\frmportmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{547C2B6C-8FC4-46DF-8A66-5D1FF28F3C87}|THLHostForm\\THLHostForm.csproj|solutionrelative:thlhostform\\frmportmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3EC376AE-8CC6-47B8-91A2-417ACA527F39}|Net\\Net.csproj|c:\\users\\49469\\documents\\github\\sensorproject\\thlhostform\\net\\netmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3EC376AE-8CC6-47B8-91A2-417ACA527F39}|Net\\Net.csproj|C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\net\\netmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3EC376AE-8CC6-47B8-91A2-417ACA527F39}|Net\\Net.csproj|solutionrelative:net\\netmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3EC376AE-8CC6-47B8-91A2-417ACA527F39}|Net\\Net.csproj|C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\net\\bytearray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3EC376AE-8CC6-47B8-91A2-417ACA527F39}|Net\\Net.csproj|solutionrelative:net\\bytearray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547C2B6C-8FC4-46DF-8A66-5D1FF28F3C87}|THLHostForm\\THLHostForm.csproj|C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\thlhostform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{547C2B6C-8FC4-46DF-8A66-5D1FF28F3C87}|THLHostForm\\THLHostForm.csproj|solutionrelative:thlhostform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EC376AE-8CC6-47B8-91A2-417ACA527F39}|Net\\Net.csproj|c:\\users\\49469\\documents\\github\\sensorproject\\thlhostform\\net\\proto\\msgthlanaly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EC376AE-8CC6-47B8-91A2-417ACA527F39}|Net\\Net.csproj|solutionrelative:net\\proto\\msgthlanaly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547C2B6C-8FC4-46DF-8A66-5D1FF28F3C87}|THLHostForm\\THLHostForm.csproj|C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\thlhostform\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{547C2B6C-8FC4-46DF-8A66-5D1FF28F3C87}|THLHostForm\\THLHostForm.csproj|solutionrelative:thlhostform\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547C2B6C-8FC4-46DF-8A66-5D1FF28F3C87}|THLHostForm\\THLHostForm.csproj|C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\thlhostform\\frmthlread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{547C2B6C-8FC4-46DF-8A66-5D1FF28F3C87}|THLHostForm\\THLHostForm.csproj|solutionrelative:thlhostform\\frmthlread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547C2B6C-8FC4-46DF-8A66-5D1FF28F3C87}|THLHostForm\\THLHostForm.csproj|C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\thlhostform\\frmportmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{547C2B6C-8FC4-46DF-8A66-5D1FF28F3C87}|THLHostForm\\THLHostForm.csproj|solutionrelative:thlhostform\\frmportmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{547C2B6C-8FC4-46DF-8A66-5D1FF28F3C87}|THLHostForm\\THLHostForm.csproj|C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\thlhostform\\frmdatashow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -49,10 +65,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{547C2B6C-8FC4-46DF-8A66-5D1FF28F3C87}|THLHostForm\\THLHostForm.csproj|C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\thlhostform\\frmadminlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{547C2B6C-8FC4-46DF-8A66-5D1FF28F3C87}|THLHostForm\\THLHostForm.csproj|solutionrelative:thlhostform\\frmadminlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{547C2B6C-8FC4-46DF-8A66-5D1FF28F3C87}|THLHostForm\\THLHostForm.csproj|C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\thlhostform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{547C2B6C-8FC4-46DF-8A66-5D1FF28F3C87}|THLHostForm\\THLHostForm.csproj|solutionrelative:thlhostform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3EC376AE-8CC6-47B8-91A2-417ACA527F39}|Net\\Net.csproj|C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\net\\proto\\msgsensorstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -99,14 +111,6 @@
       "RelativeMoniker": "D:0:0:{5DB90D87-83FF-4354-B380-ACE0203E8106}|DAL\\DAL.csproj|solutionrelative:dal\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D35237D6-E908-4BFA-B37D-04A26FBCEAAC}|ModubusHelper\\ModbusDAL.csproj|C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\modubushelper\\modbushelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D35237D6-E908-4BFA-B37D-04A26FBCEAAC}|ModubusHelper\\ModbusDAL.csproj|solutionrelative:modubushelper\\modbushelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D35237D6-E908-4BFA-B37D-04A26FBCEAAC}|ModubusHelper\\ModbusDAL.csproj|C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\modubushelper\\modbusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D35237D6-E908-4BFA-B37D-04A26FBCEAAC}|ModubusHelper\\ModbusDAL.csproj|solutionrelative:modubushelper\\modbusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{547C2B6C-8FC4-46DF-8A66-5D1FF28F3C87}|THLHostForm\\THLHostForm.csproj|C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\thlhostform\\frmthlread.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{547C2B6C-8FC4-46DF-8A66-5D1FF28F3C87}|THLHostForm\\THLHostForm.csproj|solutionrelative:thlhostform\\frmthlread.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -134,7 +138,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -147,6 +151,14 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Document",
@@ -162,15 +174,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FrmTHLRead.cs",
-              "DocumentMoniker": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\THLHostForm\\FrmTHLRead.cs",
-              "RelativeDocumentMoniker": "THLHostForm\\FrmTHLRead.cs",
-              "ToolTip": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\THLHostForm\\FrmTHLRead.cs",
-              "RelativeToolTip": "THLHostForm\\FrmTHLRead.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAAAFgAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ModbusService.cs",
+              "DocumentMoniker": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\ModubusHelper\\ModbusService.cs",
+              "RelativeDocumentMoniker": "ModubusHelper\\ModbusService.cs",
+              "ToolTip": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\ModubusHelper\\ModbusService.cs",
+              "RelativeToolTip": "ModubusHelper\\ModbusService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA0wA4AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T14:45:34.759Z",
+              "WhenOpened": "2025-10-13T13:27:27.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ModbusHelper.cs",
+              "DocumentMoniker": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\ModubusHelper\\ModbusHelper.cs",
+              "RelativeDocumentMoniker": "ModubusHelper\\ModbusHelper.cs",
+              "ToolTip": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\ModubusHelper\\ModbusHelper.cs",
+              "RelativeToolTip": "ModubusHelper\\ModbusHelper.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAwwFkAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T13:29:22.865Z",
               "EditorCaption": ""
             },
             {
@@ -186,16 +211,73 @@
               "EditorCaption": " [\u8BBE\u8BA1]"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrmMain.cs",
+              "DocumentMoniker": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\THLHostForm\\FrmMain.cs",
+              "RelativeDocumentMoniker": "THLHostForm\\FrmMain.cs",
+              "ToolTip": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\THLHostForm\\FrmMain.cs",
+              "RelativeToolTip": "THLHostForm\\FrmMain.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T12:38:04.277Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
+              "Title": "NetManager.cs",
+              "DocumentMoniker": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\Net\\NetManager.cs",
+              "RelativeDocumentMoniker": "Net\\NetManager.cs",
+              "ToolTip": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\Net\\NetManager.cs",
+              "RelativeToolTip": "Net\\NetManager.cs",
+              "ViewState": "AgIAAJUAAAAAAAAAAAA8wKgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T03:09:17.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ByteArray.cs",
+              "DocumentMoniker": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\Net\\ByteArray.cs",
+              "RelativeDocumentMoniker": "Net\\ByteArray.cs",
+              "ToolTip": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\Net\\ByteArray.cs",
+              "RelativeToolTip": "Net\\ByteArray.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIAzwBEAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T03:09:18.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\THLHostForm\\Program.cs",
+              "RelativeDocumentMoniker": "THLHostForm\\Program.cs",
+              "ToolTip": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\THLHostForm\\Program.cs",
+              "RelativeToolTip": "THLHostForm\\Program.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAYwCEAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T14:33:13.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MsgThlAnaly.cs",
+              "DocumentMoniker": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\Net\\Proto\\MsgThlAnaly.cs",
+              "RelativeDocumentMoniker": "Net\\Proto\\MsgThlAnaly.cs",
+              "ToolTip": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\Net\\Proto\\MsgThlAnaly.cs",
+              "RelativeToolTip": "Net\\Proto\\MsgThlAnaly.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T06:10:08.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "FrmMain.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\THLHostForm\\FrmMain.cs",
               "RelativeDocumentMoniker": "THLHostForm\\FrmMain.cs",
@@ -207,20 +289,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FrmMain.cs",
-              "DocumentMoniker": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\THLHostForm\\FrmMain.cs",
-              "RelativeDocumentMoniker": "THLHostForm\\FrmMain.cs",
-              "ToolTip": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\THLHostForm\\FrmMain.cs",
-              "RelativeToolTip": "THLHostForm\\FrmMain.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAwCoAAAARAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "FrmTHLRead.cs",
+              "DocumentMoniker": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\THLHostForm\\FrmTHLRead.cs",
+              "RelativeDocumentMoniker": "THLHostForm\\FrmTHLRead.cs",
+              "ToolTip": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\THLHostForm\\FrmTHLRead.cs",
+              "RelativeToolTip": "THLHostForm\\FrmTHLRead.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAFgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T12:38:04.277Z",
+              "WhenOpened": "2025-10-13T14:45:34.759Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "FrmPortManager.cs",
               "DocumentMoniker": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\THLHostForm\\FrmPortManager.cs",
               "RelativeDocumentMoniker": "THLHostForm\\FrmPortManager.cs",
@@ -233,32 +315,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "NetManager.cs",
-              "DocumentMoniker": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\Net\\NetManager.cs",
-              "RelativeDocumentMoniker": "Net\\NetManager.cs",
-              "ToolTip": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\Net\\NetManager.cs",
-              "RelativeToolTip": "Net\\NetManager.cs",
-              "ViewState": "AgIAAJUAAAAAAAAAAAAswKgAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T03:09:17.414Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ByteArray.cs",
-              "DocumentMoniker": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\Net\\ByteArray.cs",
-              "RelativeDocumentMoniker": "Net\\ByteArray.cs",
-              "ToolTip": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\Net\\ByteArray.cs",
-              "RelativeToolTip": "Net\\ByteArray.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIAzwBEAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T03:09:18.111Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "FrmDataShow.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\THLHostForm\\FrmDataShow.cs",
               "RelativeDocumentMoniker": "THLHostForm\\FrmDataShow.cs",
@@ -269,7 +326,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "FrmAdminLogin.cs",
               "DocumentMoniker": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\THLHostForm\\FrmAdminLogin.cs",
               "RelativeDocumentMoniker": "THLHostForm\\FrmAdminLogin.cs",
@@ -281,7 +338,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "FrmAdminLogin.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\THLHostForm\\FrmAdminLogin.cs",
               "RelativeDocumentMoniker": "THLHostForm\\FrmAdminLogin.cs",
@@ -292,7 +349,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "FrmAdminLogin.Designer.cs",
               "DocumentMoniker": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\THLHostForm\\FrmAdminLogin.Designer.cs",
               "RelativeDocumentMoniker": "THLHostForm\\FrmAdminLogin.Designer.cs",
@@ -304,19 +361,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\THLHostForm\\Program.cs",
-              "RelativeDocumentMoniker": "THLHostForm\\Program.cs",
-              "ToolTip": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\THLHostForm\\Program.cs",
-              "RelativeToolTip": "THLHostForm\\Program.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAYwBcAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T14:33:13.418Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "MsgSensorState.cs",
               "DocumentMoniker": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\Net\\Proto\\MsgSensorState.cs",
               "RelativeDocumentMoniker": "Net\\Proto\\MsgSensorState.cs",
@@ -328,7 +373,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "ForwardMsg.cs",
               "DocumentMoniker": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\Net\\Proto\\ForwardMsg.cs",
               "RelativeDocumentMoniker": "Net\\Proto\\ForwardMsg.cs",
@@ -340,7 +385,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "MsgBase.cs",
               "DocumentMoniker": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\Net\\Proto\\MsgBase.cs",
               "RelativeDocumentMoniker": "Net\\Proto\\MsgBase.cs",
@@ -352,7 +397,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "MsgSys.cs",
               "DocumentMoniker": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\Net\\Proto\\MsgSys.cs",
               "RelativeDocumentMoniker": "Net\\Proto\\MsgSys.cs",
@@ -364,7 +409,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "FrmDataShow.cs",
               "DocumentMoniker": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\THLHostForm\\FrmDataShow.cs",
               "RelativeDocumentMoniker": "THLHostForm\\FrmDataShow.cs",
@@ -376,7 +421,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "packages.config",
               "DocumentMoniker": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\THLHostForm\\packages.config",
               "RelativeDocumentMoniker": "THLHostForm\\packages.config",
@@ -388,7 +433,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "THLDataService.cs",
               "DocumentMoniker": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\DAL\\THLDataService.cs",
               "RelativeDocumentMoniker": "DAL\\THLDataService.cs",
@@ -400,7 +445,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "THLData.cs",
               "DocumentMoniker": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\Models\\THLData.cs",
               "RelativeDocumentMoniker": "Models\\THLData.cs",
@@ -412,7 +457,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "SQLHelper.cs",
               "DocumentMoniker": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\DAL\\SQLHelper.cs",
               "RelativeDocumentMoniker": "DAL\\SQLHelper.cs",
@@ -424,7 +469,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "SysAdmin.cs",
               "DocumentMoniker": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\Models\\SysAdmin.cs",
               "RelativeDocumentMoniker": "Models\\SysAdmin.cs",
@@ -436,7 +481,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
               "Title": "AdminService.cs",
               "DocumentMoniker": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\DAL\\AdminService.cs",
               "RelativeDocumentMoniker": "DAL\\AdminService.cs",
@@ -448,31 +493,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "ModbusHelper.cs",
-              "DocumentMoniker": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\ModubusHelper\\ModbusHelper.cs",
-              "RelativeDocumentMoniker": "ModubusHelper\\ModbusHelper.cs",
-              "ToolTip": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\ModubusHelper\\ModbusHelper.cs",
-              "RelativeToolTip": "ModubusHelper\\ModbusHelper.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAwwFkAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T13:29:22.865Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "ModbusService.cs",
-              "DocumentMoniker": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\ModubusHelper\\ModbusService.cs",
-              "RelativeDocumentMoniker": "ModubusHelper\\ModbusService.cs",
-              "ToolTip": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\ModubusHelper\\ModbusService.cs",
-              "RelativeToolTip": "ModubusHelper\\ModbusService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T13:27:27.025Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "FrmTHLRead.Designer.cs",
               "DocumentMoniker": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\THLHostForm\\FrmTHLRead.Designer.cs",
               "RelativeDocumentMoniker": "THLHostForm\\FrmTHLRead.Designer.cs",
@@ -485,7 +506,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "packages.config",
               "DocumentMoniker": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\ModubusHelper\\packages.config",
               "RelativeDocumentMoniker": "ModubusHelper\\packages.config",
@@ -497,7 +518,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "Events.cs",
               "DocumentMoniker": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\ModubusHelper\\Events.cs",
               "RelativeDocumentMoniker": "ModubusHelper\\Events.cs",
@@ -509,7 +530,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "EventBus.cs",
               "DocumentMoniker": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\ModubusHelper\\EventBus.cs",
               "RelativeDocumentMoniker": "ModubusHelper\\EventBus.cs",
@@ -521,7 +542,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "FrmPortManager.Designer.cs",
               "DocumentMoniker": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\THLHostForm\\FrmPortManager.Designer.cs",
               "RelativeDocumentMoniker": "THLHostForm\\FrmPortManager.Designer.cs",
