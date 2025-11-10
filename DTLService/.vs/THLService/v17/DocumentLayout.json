@@ -3,8 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\DTLService\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F80AD2D1-0571-47CF-A0E0-67774E8DF7FF}|SectService\\THLService.csproj|c:\\users\\49469\\documents\\github\\sensorproject\\dtlservice\\sectservice\\script\\mainclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F80AD2D1-0571-47CF-A0E0-67774E8DF7FF}|SectService\\THLService.csproj|solutionrelative:sectservice\\script\\mainclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F80AD2D1-0571-47CF-A0E0-67774E8DF7FF}|SectService\\THLService.csproj|c:\\users\\49469\\documents\\github\\sensorproject\\dtlservice\\sectservice\\script\\logic\\msgrotationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F80AD2D1-0571-47CF-A0E0-67774E8DF7FF}|SectService\\THLService.csproj|solutionrelative:sectservice\\script\\logic\\msgrotationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F80AD2D1-0571-47CF-A0E0-67774E8DF7FF}|SectService\\THLService.csproj|c:\\users\\49469\\documents\\github\\sensorproject\\dtlservice\\sectservice\\script\\logic\\forwardmsghandle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F80AD2D1-0571-47CF-A0E0-67774E8DF7FF}|SectService\\THLService.csproj|solutionrelative:sectservice\\script\\logic\\forwardmsghandle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F80AD2D1-0571-47CF-A0E0-67774E8DF7FF}|SectService\\THLService.csproj|c:\\users\\49469\\documents\\github\\sensorproject\\dtlservice\\sectservice\\script\\logic\\thlanalyhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F80AD2D1-0571-47CF-A0E0-67774E8DF7FF}|SectService\\THLService.csproj|solutionrelative:sectservice\\script\\logic\\thlanalyhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F80AD2D1-0571-47CF-A0E0-67774E8DF7FF}|SectService\\THLService.csproj|c:\\users\\49469\\documents\\github\\sensorproject\\dtlservice\\sectservice\\script\\logic\\msgsensorstatehandle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F80AD2D1-0571-47CF-A0E0-67774E8DF7FF}|SectService\\THLService.csproj|solutionrelative:sectservice\\script\\logic\\msgsensorstatehandle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F80AD2D1-0571-47CF-A0E0-67774E8DF7FF}|SectService\\THLService.csproj|c:\\users\\49469\\documents\\github\\sensorproject\\dtlservice\\sectservice\\script\\proto\\msgrotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F80AD2D1-0571-47CF-A0E0-67774E8DF7FF}|SectService\\THLService.csproj|solutionrelative:sectservice\\script\\proto\\msgrotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F80AD2D1-0571-47CF-A0E0-67774E8DF7FF}|SectService\\THLService.csproj|c:\\users\\49469\\documents\\github\\sensorproject\\dtlservice\\sectservice\\script\\logic\\eventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F80AD2D1-0571-47CF-A0E0-67774E8DF7FF}|SectService\\THLService.csproj|solutionrelative:sectservice\\script\\logic\\eventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F80AD2D1-0571-47CF-A0E0-67774E8DF7FF}|SectService\\THLService.csproj|c:\\users\\49469\\documents\\github\\sensorproject\\dtlservice\\sectservice\\script\\proto\\msgsensorstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F80AD2D1-0571-47CF-A0E0-67774E8DF7FF}|SectService\\THLService.csproj|solutionrelative:sectservice\\script\\proto\\msgsensorstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F80AD2D1-0571-47CF-A0E0-67774E8DF7FF}|SectService\\THLService.csproj|c:\\users\\49469\\documents\\github\\sensorproject\\dtlservice\\sectservice\\script\\proto\\forwardmsg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F80AD2D1-0571-47CF-A0E0-67774E8DF7FF}|SectService\\THLService.csproj|solutionrelative:sectservice\\script\\proto\\forwardmsg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F80AD2D1-0571-47CF-A0E0-67774E8DF7FF}|SectService\\THLService.csproj|c:\\users\\49469\\documents\\github\\sensorproject\\dtlservice\\sectservice\\script\\proto\\sysmsg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F80AD2D1-0571-47CF-A0E0-67774E8DF7FF}|SectService\\THLService.csproj|solutionrelative:sectservice\\script\\proto\\sysmsg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F80AD2D1-0571-47CF-A0E0-67774E8DF7FF}|SectService\\THLService.csproj|c:\\users\\49469\\documents\\github\\sensorproject\\dtlservice\\sectservice\\script\\net\\netmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,36 +67,8 @@
       "RelativeMoniker": "D:0:0:{F80AD2D1-0571-47CF-A0E0-67774E8DF7FF}|SectService\\THLService.csproj|solutionrelative:sectservice\\script\\logic\\sysmsghandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F80AD2D1-0571-47CF-A0E0-67774E8DF7FF}|SectService\\THLService.csproj|c:\\users\\49469\\documents\\github\\sensorproject\\dtlservice\\sectservice\\script\\mainclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F80AD2D1-0571-47CF-A0E0-67774E8DF7FF}|SectService\\THLService.csproj|solutionrelative:sectservice\\script\\mainclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F80AD2D1-0571-47CF-A0E0-67774E8DF7FF}|SectService\\THLService.csproj|c:\\users\\49469\\documents\\github\\sensorproject\\dtlservice\\sectservice\\script\\stringresource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F80AD2D1-0571-47CF-A0E0-67774E8DF7FF}|SectService\\THLService.csproj|solutionrelative:sectservice\\script\\stringresource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F80AD2D1-0571-47CF-A0E0-67774E8DF7FF}|SectService\\THLService.csproj|c:\\users\\49469\\documents\\github\\sensorproject\\dtlservice\\sectservice\\script\\logic\\forwardmsghandle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F80AD2D1-0571-47CF-A0E0-67774E8DF7FF}|SectService\\THLService.csproj|solutionrelative:sectservice\\script\\logic\\forwardmsghandle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F80AD2D1-0571-47CF-A0E0-67774E8DF7FF}|SectService\\THLService.csproj|c:\\users\\49469\\documents\\github\\sensorproject\\dtlservice\\sectservice\\script\\logic\\msgsensorstatehandle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F80AD2D1-0571-47CF-A0E0-67774E8DF7FF}|SectService\\THLService.csproj|solutionrelative:sectservice\\script\\logic\\msgsensorstatehandle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F80AD2D1-0571-47CF-A0E0-67774E8DF7FF}|SectService\\THLService.csproj|c:\\users\\49469\\documents\\github\\sensorproject\\dtlservice\\sectservice\\script\\logic\\eventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F80AD2D1-0571-47CF-A0E0-67774E8DF7FF}|SectService\\THLService.csproj|solutionrelative:sectservice\\script\\logic\\eventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F80AD2D1-0571-47CF-A0E0-67774E8DF7FF}|SectService\\THLService.csproj|c:\\users\\49469\\documents\\github\\sensorproject\\dtlservice\\sectservice\\script\\proto\\msgsensorstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F80AD2D1-0571-47CF-A0E0-67774E8DF7FF}|SectService\\THLService.csproj|solutionrelative:sectservice\\script\\proto\\msgsensorstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F80AD2D1-0571-47CF-A0E0-67774E8DF7FF}|SectService\\THLService.csproj|c:\\users\\49469\\documents\\github\\sensorproject\\dtlservice\\sectservice\\script\\proto\\sysmsg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F80AD2D1-0571-47CF-A0E0-67774E8DF7FF}|SectService\\THLService.csproj|solutionrelative:sectservice\\script\\proto\\sysmsg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F80AD2D1-0571-47CF-A0E0-67774E8DF7FF}|SectService\\THLService.csproj|c:\\users\\49469\\documents\\github\\sensorproject\\dtlservice\\sectservice\\script\\proto\\forwardmsg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F80AD2D1-0571-47CF-A0E0-67774E8DF7FF}|SectService\\THLService.csproj|solutionrelative:sectservice\\script\\proto\\forwardmsg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F80AD2D1-0571-47CF-A0E0-67774E8DF7FF}|SectService\\THLService.csproj|c:\\users\\49469\\documents\\github\\sensorproject\\dtlservice\\sectservice\\data\\thldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -74,7 +82,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -89,12 +97,51 @@
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MsgRotationHandler.cs",
+              "DocumentMoniker": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\DTLService\\SectService\\Script\\logic\\MsgRotationHandler.cs",
+              "RelativeDocumentMoniker": "SectService\\Script\\logic\\MsgRotationHandler.cs",
+              "ToolTip": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\DTLService\\SectService\\Script\\logic\\MsgRotationHandler.cs",
+              "RelativeToolTip": "SectService\\Script\\logic\\MsgRotationHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T12:17:40.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ForwardMsgHandle.cs",
+              "DocumentMoniker": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\DTLService\\SectService\\Script\\logic\\ForwardMsgHandle.cs",
+              "RelativeDocumentMoniker": "SectService\\Script\\logic\\ForwardMsgHandle.cs",
+              "ToolTip": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\DTLService\\SectService\\Script\\logic\\ForwardMsgHandle.cs",
+              "RelativeToolTip": "SectService\\Script\\logic\\ForwardMsgHandle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T12:59:38.253Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "MsgSensorStateHandle.cs",
+              "DocumentMoniker": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\DTLService\\SectService\\Script\\logic\\MsgSensorStateHandle.cs",
+              "RelativeDocumentMoniker": "SectService\\Script\\logic\\MsgSensorStateHandle.cs",
+              "ToolTip": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\DTLService\\SectService\\Script\\logic\\MsgSensorStateHandle.cs",
+              "RelativeToolTip": "SectService\\Script\\logic\\MsgSensorStateHandle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T06:42:12.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ThlAnalyHandler.cs",
               "DocumentMoniker": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\DTLService\\SectService\\Script\\logic\\ThlAnalyHandler.cs",
               "RelativeDocumentMoniker": "SectService\\Script\\logic\\ThlAnalyHandler.cs",
@@ -107,163 +154,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "NetManager.cs",
-              "DocumentMoniker": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\DTLService\\SectService\\Script\\Net\\NetManager.cs",
-              "RelativeDocumentMoniker": "SectService\\Script\\Net\\NetManager.cs",
-              "ToolTip": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\DTLService\\SectService\\Script\\Net\\NetManager.cs",
-              "RelativeToolTip": "SectService\\Script\\Net\\NetManager.cs",
-              "ViewState": "AgIAAHoAAAAAAAAAAAAvwJkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T13:33:45.975Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MsgBase.cs",
-              "DocumentMoniker": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\DTLService\\SectService\\Script\\Net\\MsgBase.cs",
-              "RelativeDocumentMoniker": "SectService\\Script\\Net\\MsgBase.cs",
-              "ToolTip": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\DTLService\\SectService\\Script\\Net\\MsgBase.cs",
-              "RelativeToolTip": "SectService\\Script\\Net\\MsgBase.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAQwCMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T02:54:38.774Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ClientState.cs",
-              "DocumentMoniker": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\DTLService\\SectService\\Script\\Net\\ClientState.cs",
-              "RelativeDocumentMoniker": "SectService\\Script\\Net\\ClientState.cs",
-              "ToolTip": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\DTLService\\SectService\\Script\\Net\\ClientState.cs",
-              "RelativeToolTip": "SectService\\Script\\Net\\ClientState.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T02:54:31.754Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ByteArray.cs",
-              "DocumentMoniker": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\DTLService\\SectService\\Script\\Net\\ByteArray.cs",
-              "RelativeDocumentMoniker": "SectService\\Script\\Net\\ByteArray.cs",
-              "ToolTip": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\DTLService\\SectService\\Script\\Net\\ByteArray.cs",
-              "RelativeToolTip": "SectService\\Script\\Net\\ByteArray.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T02:52:52.542Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MsgThlAnaly.cs",
-              "DocumentMoniker": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\DTLService\\SectService\\Script\\proto\\MsgThlAnaly.cs",
-              "RelativeDocumentMoniker": "SectService\\Script\\proto\\MsgThlAnaly.cs",
-              "ToolTip": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\DTLService\\SectService\\Script\\proto\\MsgThlAnaly.cs",
-              "RelativeToolTip": "SectService\\Script\\proto\\MsgThlAnaly.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T06:06:12.282Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SysMsgHandler.cs",
-              "DocumentMoniker": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\DTLService\\SectService\\Script\\logic\\SysMsgHandler.cs",
-              "RelativeDocumentMoniker": "SectService\\Script\\logic\\SysMsgHandler.cs",
-              "ToolTip": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\DTLService\\SectService\\Script\\logic\\SysMsgHandler.cs",
-              "RelativeToolTip": "SectService\\Script\\logic\\SysMsgHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T02:52:01.083Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "MainClass.cs",
               "DocumentMoniker": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\DTLService\\SectService\\Script\\MainClass.cs",
               "RelativeDocumentMoniker": "SectService\\Script\\MainClass.cs",
               "ToolTip": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\DTLService\\SectService\\Script\\MainClass.cs",
               "RelativeToolTip": "SectService\\Script\\MainClass.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-08T02:52:54.208Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "StringResource.cs",
-              "DocumentMoniker": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\DTLService\\SectService\\Script\\StringResource.cs",
-              "RelativeDocumentMoniker": "SectService\\Script\\StringResource.cs",
-              "ToolTip": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\DTLService\\SectService\\Script\\StringResource.cs",
-              "RelativeToolTip": "SectService\\Script\\StringResource.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAswAYAAAABAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "MsgRotation.cs",
+              "DocumentMoniker": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\DTLService\\SectService\\Script\\proto\\MsgRotation.cs",
+              "RelativeDocumentMoniker": "SectService\\Script\\proto\\MsgRotation.cs",
+              "ToolTip": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\DTLService\\SectService\\Script\\proto\\MsgRotation.cs",
+              "RelativeToolTip": "SectService\\Script\\proto\\MsgRotation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswAAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T02:07:43.119Z",
+              "WhenOpened": "2025-11-09T12:06:26.814Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ForwardMsgHandle.cs",
-              "DocumentMoniker": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\DTLService\\SectService\\Script\\logic\\ForwardMsgHandle.cs",
-              "RelativeDocumentMoniker": "SectService\\Script\\logic\\ForwardMsgHandle.cs",
-              "ToolTip": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\DTLService\\SectService\\Script\\logic\\ForwardMsgHandle.cs",
-              "RelativeToolTip": "SectService\\Script\\logic\\ForwardMsgHandle.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T12:59:38.253Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "MsgSensorStateHandle.cs",
-              "DocumentMoniker": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\DTLService\\SectService\\Script\\logic\\MsgSensorStateHandle.cs",
-              "RelativeDocumentMoniker": "SectService\\Script\\logic\\MsgSensorStateHandle.cs",
-              "ToolTip": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\DTLService\\SectService\\Script\\logic\\MsgSensorStateHandle.cs",
-              "RelativeToolTip": "SectService\\Script\\logic\\MsgSensorStateHandle.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvw4AAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T06:42:12.895Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 6,
               "Title": "EventHandler.cs",
               "DocumentMoniker": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\DTLService\\SectService\\Script\\logic\\EventHandler.cs",
               "RelativeDocumentMoniker": "SectService\\Script\\logic\\EventHandler.cs",
               "ToolTip": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\DTLService\\SectService\\Script\\logic\\EventHandler.cs",
               "RelativeToolTip": "SectService\\Script\\logic\\EventHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-08T02:51:23.602Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 7,
               "Title": "MsgSensorState.cs",
               "DocumentMoniker": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\DTLService\\SectService\\Script\\proto\\MsgSensorState.cs",
               "RelativeDocumentMoniker": "SectService\\Script\\proto\\MsgSensorState.cs",
               "ToolTip": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\DTLService\\SectService\\Script\\proto\\MsgSensorState.cs",
               "RelativeToolTip": "SectService\\Script\\proto\\MsgSensorState.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAA9wAQAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-08T06:41:26.659Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 8,
+              "Title": "ForwardMsg.cs",
+              "DocumentMoniker": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\DTLService\\SectService\\Script\\proto\\ForwardMsg.cs",
+              "RelativeDocumentMoniker": "SectService\\Script\\proto\\ForwardMsg.cs",
+              "ToolTip": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\DTLService\\SectService\\Script\\proto\\ForwardMsg.cs",
+              "RelativeToolTip": "SectService\\Script\\proto\\ForwardMsg.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T02:55:21.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "SysMsg.cs",
               "DocumentMoniker": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\DTLService\\SectService\\Script\\proto\\SysMsg.cs",
               "RelativeDocumentMoniker": "SectService\\Script\\proto\\SysMsg.cs",
@@ -276,16 +232,63 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ForwardMsg.cs",
-              "DocumentMoniker": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\DTLService\\SectService\\Script\\proto\\ForwardMsg.cs",
-              "RelativeDocumentMoniker": "SectService\\Script\\proto\\ForwardMsg.cs",
-              "ToolTip": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\DTLService\\SectService\\Script\\proto\\ForwardMsg.cs",
-              "RelativeToolTip": "SectService\\Script\\proto\\ForwardMsg.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAASAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "MsgThlAnaly.cs",
+              "DocumentMoniker": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\DTLService\\SectService\\Script\\proto\\MsgThlAnaly.cs",
+              "RelativeDocumentMoniker": "SectService\\Script\\proto\\MsgThlAnaly.cs",
+              "ToolTip": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\DTLService\\SectService\\Script\\proto\\MsgThlAnaly.cs",
+              "RelativeToolTip": "SectService\\Script\\proto\\MsgThlAnaly.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T02:55:21.015Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-09T06:06:12.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ByteArray.cs",
+              "DocumentMoniker": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\DTLService\\SectService\\Script\\Net\\ByteArray.cs",
+              "RelativeDocumentMoniker": "SectService\\Script\\Net\\ByteArray.cs",
+              "ToolTip": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\DTLService\\SectService\\Script\\Net\\ByteArray.cs",
+              "RelativeToolTip": "SectService\\Script\\Net\\ByteArray.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T02:52:52.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ClientState.cs",
+              "DocumentMoniker": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\DTLService\\SectService\\Script\\Net\\ClientState.cs",
+              "RelativeDocumentMoniker": "SectService\\Script\\Net\\ClientState.cs",
+              "ToolTip": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\DTLService\\SectService\\Script\\Net\\ClientState.cs",
+              "RelativeToolTip": "SectService\\Script\\Net\\ClientState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T02:54:31.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MsgBase.cs",
+              "DocumentMoniker": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\DTLService\\SectService\\Script\\Net\\MsgBase.cs",
+              "RelativeDocumentMoniker": "SectService\\Script\\Net\\MsgBase.cs",
+              "ToolTip": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\DTLService\\SectService\\Script\\Net\\MsgBase.cs",
+              "RelativeToolTip": "SectService\\Script\\Net\\MsgBase.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAQwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T02:54:38.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "NetManager.cs",
+              "DocumentMoniker": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\DTLService\\SectService\\Script\\Net\\NetManager.cs",
+              "RelativeDocumentMoniker": "SectService\\Script\\Net\\NetManager.cs",
+              "ToolTip": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\DTLService\\SectService\\Script\\Net\\NetManager.cs",
+              "RelativeToolTip": "SectService\\Script\\Net\\NetManager.cs",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAvwJkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T13:33:45.975Z"
             },
             {
               "$type": "Bookmark",
@@ -294,6 +297,30 @@
             {
               "$type": "Document",
               "DocumentIndex": 15,
+              "Title": "SysMsgHandler.cs",
+              "DocumentMoniker": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\DTLService\\SectService\\Script\\logic\\SysMsgHandler.cs",
+              "RelativeDocumentMoniker": "SectService\\Script\\logic\\SysMsgHandler.cs",
+              "ToolTip": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\DTLService\\SectService\\Script\\logic\\SysMsgHandler.cs",
+              "RelativeToolTip": "SectService\\Script\\logic\\SysMsgHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T02:52:01.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "StringResource.cs",
+              "DocumentMoniker": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\DTLService\\SectService\\Script\\StringResource.cs",
+              "RelativeDocumentMoniker": "SectService\\Script\\StringResource.cs",
+              "ToolTip": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\DTLService\\SectService\\Script\\StringResource.cs",
+              "RelativeToolTip": "SectService\\Script\\StringResource.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T02:07:43.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "THLData.cs",
               "DocumentMoniker": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\DTLService\\SectService\\data\\THLData.cs",
               "RelativeDocumentMoniker": "SectService\\data\\THLData.cs",

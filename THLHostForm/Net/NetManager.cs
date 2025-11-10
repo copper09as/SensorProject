@@ -22,7 +22,7 @@ public static class NetManager
     public delegate void MsgListener(MsgBase msgBase);
 	private static Dictionary<string, MsgListener> msgListener =
 		new Dictionary<string, MsgListener>();
-	public static bool isUsePing = true;
+	public static bool isUsePing = false;
 	public static int pingInterval = 10;
     private static DateTime lastPingTime = DateTime.MinValue;
     private static DateTime lastPongTime = DateTime.MinValue;

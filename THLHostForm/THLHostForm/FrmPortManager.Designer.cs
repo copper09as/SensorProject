@@ -247,6 +247,7 @@
             this.boxAdd.Name = "boxAdd";
             this.boxAdd.Size = new System.Drawing.Size(295, 36);
             this.boxAdd.TabIndex = 19;
+            this.boxAdd.Text = "127.0.0.1";
             // 
             // boxPort
             // 
@@ -255,6 +256,7 @@
             this.boxPort.Name = "boxPort";
             this.boxPort.Size = new System.Drawing.Size(295, 36);
             this.boxPort.TabIndex = 20;
+            this.boxPort.Text = "43195";
             // 
             // label6
             // 

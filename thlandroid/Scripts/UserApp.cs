@@ -18,6 +18,10 @@ public partial class UserApp : Node
     private Label signalText;
     [Export]
     private Label analyText;
+    [Export]
+    private TextEdit rotationEdit;
+    [Export]
+    private TextureButton btnSendRotation;
     public override void _Ready()
     {
         NetManager.AddEventListener(NetEvent.ConnectSucc, OnConnect);
@@ -27,16 +31,32 @@ public partial class UserApp : Node
         NetManager.AddMsgListener("MsgSensorState", SensorStateChange);
         NetManager.AddMsgListener("MsgThlAnaly", DisplayAnalyResult);
         btnReConnect.Pressed += OnConnectPressed;
+        btnSendRotation.Pressed += OnSendRotationPressed;
         NetManager.Connect("60.215.128.110", 43195);
     }
+    private void OnSendRotationPressed()
+    {
+        MsgRotation msg = new MsgRotation();
+        if (int.TryParse(rotationEdit.Text, out int rotation) == false)
+        {
 
+            rotationEdit.Text = "角度有误";
+            return;
+        }
+        if (rotation < 0 || rotation > 180)
+        {
+            rotationEdit.Text = "角度有误";
+            return;
+        }
+        rotationEdit.Text = "已发送";
+        msg.rotation = rotation;
+        NetManager.Send(msg);
+    }
     private void DisplayAnalyResult(MsgBase msgBase)
     {
         MsgThlAnaly msg = (MsgThlAnaly)msgBase;
         analyText.Text = msg.AnalyResult;
     }
-
-
     private void SensorStateChange(MsgBase msgBase)
     {
         MsgSensorState msg = (MsgSensorState)msgBase;

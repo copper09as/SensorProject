@@ -2,8 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json;
 using System.Threading.Tasks;
 using Game.Script.Net;
+using Newtonsoft.Json;
 
 namespace Game.Script
 {
@@ -11,10 +13,7 @@ namespace Game.Script
     {
         public static void Main(string[] arg)
         {
-
-            //var port = Convert.ToInt32(Console.ReadLine());
             NetManager.StartLoop(43195);
-            
         }
     }
 }
