@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3EC376AE-8CC6-47B8-91A2-417ACA527F39}|Net\\Net.csproj|C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\net\\proto\\msgbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3EC376AE-8CC6-47B8-91A2-417ACA527F39}|Net\\Net.csproj|c:\\users\\49469\\documents\\github\\sensorproject\\thlhostform\\net\\proto\\msgbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3EC376AE-8CC6-47B8-91A2-417ACA527F39}|Net\\Net.csproj|solutionrelative:net\\proto\\msgbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -23,7 +23,7 @@
       "RelativeMoniker": "D:0:0:{547C2B6C-8FC4-46DF-8A66-5D1FF28F3C87}|THLHostForm\\THLHostForm.csproj|solutionrelative:thlhostform\\frmportmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D35237D6-E908-4BFA-B37D-04A26FBCEAAC}|ModubusHelper\\ModbusDAL.csproj|c:\\users\\49469\\documents\\github\\sensorproject\\thlhostform\\modubushelper\\modbushelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D35237D6-E908-4BFA-B37D-04A26FBCEAAC}|ModubusHelper\\ModbusDAL.csproj|C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\modubushelper\\modbushelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D35237D6-E908-4BFA-B37D-04A26FBCEAAC}|ModubusHelper\\ModbusDAL.csproj|solutionrelative:modubushelper\\modbushelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -138,7 +138,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -157,6 +157,10 @@
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "FrmPortManager.cs [\u8BBE\u8BA1]",
@@ -165,8 +169,7 @@
               "ToolTip": "C:\\Users\\49469\\Documents\\GitHub\\SensorProject\\THLHostForm\\THLHostForm\\FrmPortManager.cs [\u8BBE\u8BA1]",
               "RelativeToolTip": "THLHostForm\\FrmPortManager.cs [\u8BBE\u8BA1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T07:04:44.204Z",
-              "EditorCaption": " [\u8BBE\u8BA1]"
+              "WhenOpened": "2025-11-08T07:04:44.204Z"
             },
             {
               "$type": "Document",
@@ -182,10 +185,6 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "MsgSys.cs",
@@ -195,8 +194,7 @@
               "RelativeToolTip": "Net\\Proto\\MsgSys.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T03:10:40.262Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-08T03:10:40.262Z"
             },
             {
               "$type": "Document",
@@ -208,8 +206,7 @@
               "RelativeToolTip": "Net\\NetManager.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAowBgAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T03:09:17.414Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-08T03:09:17.414Z"
             },
             {
               "$type": "Document",
@@ -221,8 +218,7 @@
               "RelativeToolTip": "ModubusHelper\\ModbusService.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABcAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T13:27:27.025Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-13T13:27:27.025Z"
             },
             {
               "$type": "Document",
@@ -234,8 +230,7 @@
               "RelativeToolTip": "ModubusHelper\\ModbusHelper.cs",
               "ViewState": "AgIAAEYAAAAAAAAAAAAwwFkAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T13:29:22.865Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-13T13:29:22.865Z"
             },
             {
               "$type": "Document",
@@ -329,8 +324,7 @@
               "RelativeToolTip": "THLHostForm\\FrmPortManager.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAjwJUAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T13:34:45.598Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-13T13:34:45.598Z"
             },
             {
               "$type": "Document",
@@ -544,8 +538,7 @@
               "RelativeToolTip": "THLHostForm\\FrmPortManager.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T14:24:33.926Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-13T14:24:33.926Z"
             }
           ]
         }

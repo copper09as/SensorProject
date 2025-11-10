@@ -82,7 +82,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -106,8 +106,7 @@
               "RelativeToolTip": "SectService\\Script\\logic\\MsgRotationHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T12:17:40.152Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-09T12:17:40.152Z"
             },
             {
               "$type": "Document",
@@ -119,12 +118,7 @@
               "RelativeToolTip": "SectService\\Script\\logic\\ForwardMsgHandle.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T12:59:38.253Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "WhenOpened": "2025-05-11T12:59:38.253Z"
             },
             {
               "$type": "Document",
@@ -136,8 +130,7 @@
               "RelativeToolTip": "SectService\\Script\\logic\\MsgSensorStateHandle.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvxAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T06:42:12.895Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-08T06:42:12.895Z"
             },
             {
               "$type": "Document",
@@ -149,8 +142,7 @@
               "RelativeToolTip": "SectService\\Script\\logic\\ThlAnalyHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwsAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T06:05:22.967Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-09T06:05:22.967Z"
             },
             {
               "$type": "Document",
@@ -166,6 +158,14 @@
               "EditorCaption": ""
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "MsgRotation.cs",
@@ -175,8 +175,7 @@
               "RelativeToolTip": "SectService\\Script\\proto\\MsgRotation.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAswAAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T12:06:26.814Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-09T12:06:26.814Z"
             },
             {
               "$type": "Document",
@@ -188,8 +187,7 @@
               "RelativeToolTip": "SectService\\Script\\logic\\EventHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T02:51:23.602Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-08T02:51:23.602Z"
             },
             {
               "$type": "Document",
@@ -201,8 +199,7 @@
               "RelativeToolTip": "SectService\\Script\\proto\\MsgSensorState.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T06:41:26.659Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-08T06:41:26.659Z"
             },
             {
               "$type": "Document",
@@ -214,8 +211,7 @@
               "RelativeToolTip": "SectService\\Script\\proto\\ForwardMsg.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T02:55:21.015Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-08T02:55:21.015Z"
             },
             {
               "$type": "Document",
@@ -227,8 +223,7 @@
               "RelativeToolTip": "SectService\\Script\\proto\\SysMsg.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T02:56:35.513Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-08T02:56:35.513Z"
             },
             {
               "$type": "Document",
@@ -289,10 +284,6 @@
               "ViewState": "AgIAAHoAAAAAAAAAAAAvwJkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-11T13:33:45.975Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Document",
