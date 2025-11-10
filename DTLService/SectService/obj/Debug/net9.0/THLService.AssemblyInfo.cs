@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("THLService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f766d2748ad7e11a9718dbaf39fe77f598173ce0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+540d125e9481bdea82375cefcf0338520a12ef3a")]
 [assembly: System.Reflection.AssemblyProductAttribute("THLService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("THLService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

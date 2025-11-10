@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=3 uid="uid://gnpbbyrvwtfa"]
+[gd_scene load_steps=14 format=3 uid="uid://gnpbbyrvwtfa"]
 
 [ext_resource type="Script" uid="uid://crcdytvqvdpip" path="res://Scripts/UserApp.cs" id="1_0p131"]
 [ext_resource type="Texture2D" uid="uid://bgjaohseid5ua" path="res://Art/thermometer-hot.png" id="2_rcxye"]
@@ -9,6 +9,9 @@
 [ext_resource type="Texture2D" uid="uid://dknxpoowvieqf" path="res://Art/cycle.png" id="6_gbe6t"]
 [ext_resource type="Texture2D" uid="uid://hrlgbhdvtbb7" path="res://Art/think.png" id="7_acmn0"]
 [ext_resource type="Texture2D" uid="uid://5mlm375h3ovp" path="res://Art/confirmed.png" id="8_xoman"]
+[ext_resource type="Texture2D" uid="uid://bqdrpdtcql5bg" path="res://Art/check-mark (1).png" id="9_16wdn"]
+[ext_resource type="Texture2D" uid="uid://no18xf1c43rt" path="res://Art/spinning-ribbons.png" id="9_ks2jn"]
+[ext_resource type="Texture2D" uid="uid://dggvijgtj0kva" path="res://Art/confirmed (1).png" id="10_v07e4"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_0p131"]
 bg_color = Color(0, 0, 0, 1)
@@ -31,7 +34,7 @@ offset_bottom = 38.0
 scale = Vector2(15, 20.2)
 theme_override_styles/panel = SubResource("StyleBoxFlat_0p131")
 
-[node name="UserApp" type="Node" parent="." node_paths=PackedStringArray("temText", "humText", "lightText", "sensorStateText", "btnReConnect", "signalText", "analyText")]
+[node name="UserApp" type="Node" parent="." node_paths=PackedStringArray("temText", "humText", "lightText", "sensorStateText", "btnReConnect", "signalText", "analyText", "rotationEdit", "btnSendRotation")]
 script = ExtResource("1_0p131")
 temText = NodePath("../Control/Tem/temText")
 humText = NodePath("../Control/Hum/humText")
@@ -40,6 +43,8 @@ sensorStateText = NodePath("../Control/Sensor/SensorText")
 btnReConnect = NodePath("../ReConnect")
 signalText = NodePath("../Control/Service/SignalText")
 analyText = NodePath("../Control/Analy/AnalyText")
+rotationEdit = NodePath("../Control/Rotation/TextEdit")
+btnSendRotation = NodePath("../Control/Rotation/BtnSend")
 
 [node name="TitleText" type="Label" parent="."]
 layout_mode = 0
@@ -142,6 +147,7 @@ offset_right = 42.0
 offset_bottom = 87.0
 
 [node name="AnalyText" type="Label" parent="Control/Analy"]
+layout_mode = 0
 offset_left = 146.0
 offset_top = 532.0
 offset_right = 589.0
@@ -150,6 +156,7 @@ theme_override_font_sizes/font_size = 20
 autowrap_mode = 1
 
 [node name="AnalyIcon" type="TextureRect" parent="Control/Analy"]
+layout_mode = 0
 offset_left = 3.05176e-05
 offset_top = 532.0
 offset_right = 512.0
@@ -180,6 +187,41 @@ offset_right = 813.0
 offset_bottom = 675.0
 scale = Vector2(0.24, 0.24)
 texture = ExtResource("2_xfkc3")
+
+[node name="Rotation" type="Control" parent="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 2.0
+offset_top = 110.0
+offset_right = 42.0
+offset_bottom = 150.0
+
+[node name="BtnSend" type="TextureButton" parent="Control/Rotation"]
+offset_left = 497.0
+offset_top = 356.0
+offset_right = 1009.0
+offset_bottom = 868.0
+scale = Vector2(0.1, 0.1)
+texture_normal = ExtResource("9_16wdn")
+texture_hover = ExtResource("10_v07e4")
+
+[node name="ConnIcon" type="TextureRect" parent="Control/Rotation"]
+layout_mode = 0
+offset_left = 299.0
+offset_top = 299.0
+offset_right = 811.0
+offset_bottom = 811.0
+scale = Vector2(0.24, 0.24)
+texture = ExtResource("9_ks2jn")
+
+[node name="TextEdit" type="TextEdit" parent="Control/Rotation"]
+layout_mode = 0
+offset_left = 444.0
+offset_top = 299.0
+offset_right = 593.0
+offset_bottom = 340.0
+theme_override_font_sizes/font_size = 20
+placeholder_text = "请输入旋转角度"
 
 [node name="Service" type="Control" parent="Control"]
 anchors_preset = 0
